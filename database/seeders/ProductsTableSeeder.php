@@ -1,0 +1,2886 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class ProductsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('products')->delete();
+        
+        \DB::table('products')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'category_id' => 18,
+                'seo_title' => '1-2-3 Bottom',
+                'seo_description' => '1-2-3 Bottom',
+                'seo_keyword' => '1-2-3 Bottom',
+                'name' => '1-2-3 Bottom',
+                'slug' => '1-2-3-bottom',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:01:37',
+                'deleted_at' => NULL,
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'category_id' => 20,
+                'seo_title' => '1-2-3 Bottom Display Lid',
+                'seo_description' => '1-2-3 Bottom Display Lid',
+                'seo_keyword' => '1-2-3 Bottom Display Lid',
+                'name' => '1-2-3 Bottom Display Lid',
+                'slug' => '1-2-3-bottom-display-lid',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'category_id' => 18,
+                'seo_title' => 'Auto Bottom with Display Lid',
+                'seo_description' => 'Auto Bottom with Display Lid',
+                'seo_keyword' => 'Auto Bottom with Display Lid',
+                'name' => 'Auto Bottom with Display Lid',
+                'slug' => 'auto-bottom-with-display-lid',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'category_id' => 14,
+                'seo_title' => 'Bakery Boxes',
+                'seo_description' => 'Bakery Boxes',
+                'seo_keyword' => 'Bakery Boxes',
+                'name' => 'Bakery Boxes',
+                'slug' => 'bakery-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'category_id' => 22,
+                'seo_title' => 'Bookend',
+                'seo_description' => 'Bookend',
+                'seo_keyword' => 'Bookend',
+                'name' => 'Bookend',
+                'slug' => 'bookend',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            5 => 
+            array (
+                'id' => 6,
+                'category_id' => 23,
+                'seo_title' => 'Bowl Sleeve',
+                'seo_description' => 'Bowl Sleeve',
+                'seo_keyword' => 'Bowl Sleeve',
+                'name' => 'Bowl Sleeve',
+                'slug' => 'bowl-sleeve',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'category_id' => 13,
+                'seo_title' => 'Bux Board Boxes',
+                'seo_description' => 'Bux Board Boxes',
+                'seo_keyword' => 'Bux Board Boxes',
+                'name' => 'Bux Board Boxes',
+                'slug' => 'bux-board-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'category_id' => 14,
+                'seo_title' => 'Cake Boxes',
+                'seo_description' => 'Cake Boxes',
+                'seo_keyword' => 'Cake Boxes',
+                'name' => 'Cake Boxes',
+                'slug' => 'cake-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'category_id' => 17,
+                'seo_title' => 'Candle Boxes',
+                'seo_description' => 'Candle Boxes',
+                'seo_keyword' => 'Candle Boxes',
+                'name' => 'Candle Boxes',
+                'slug' => 'candle-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'category_id' => 14,
+                'seo_title' => 'Candy Boxes',
+                'seo_description' => 'Candy Boxes',
+                'seo_keyword' => 'Candy Boxes',
+                'name' => 'Candy Boxes',
+                'slug' => 'candy-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            10 => 
+            array (
+                'id' => 11,
+                'category_id' => 17,
+                'seo_title' => 'Cardboard Boxes',
+                'seo_description' => 'Cardboard Boxes',
+                'seo_keyword' => 'Cardboard Boxes',
+                'name' => 'Cardboard Boxes',
+                'slug' => 'cardboard-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            11 => 
+            array (
+                'id' => 12,
+                'category_id' => 14,
+                'seo_title' => 'Custom Printed Cereal Boxes | Custom Cereal Box No Minimum',
+                'seo_description' => 'Cereal Boxes',
+                'seo_keyword' => 'Cereal Boxes',
+                'name' => 'Cereal Boxes',
+                'slug' => 'cereal-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            12 => 
+            array (
+                'id' => 13,
+                'category_id' => 14,
+                'seo_title' => 'Chocolate Boxes',
+                'seo_description' => 'Chocolate Boxes',
+                'seo_keyword' => 'Chocolate Boxes',
+                'name' => 'Chocolate Boxes',
+                'slug' => 'chocolate-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            13 => 
+            array (
+                'id' => 14,
+                'category_id' => 14,
+                'seo_title' => 'Coffee Boxes',
+                'seo_description' => 'Coffee Boxes',
+                'seo_keyword' => 'Coffee Boxes',
+                'name' => 'Coffee Boxes',
+                'slug' => 'coffee-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            14 => 
+            array (
+                'id' => 15,
+                'category_id' => 14,
+                'seo_title' => 'Cookie Boxes',
+                'seo_description' => 'Cookie Boxes',
+                'seo_keyword' => 'Cookie Boxes',
+                'name' => 'Cookie Boxes',
+                'slug' => 'cookie-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            15 => 
+            array (
+                'id' => 16,
+                'category_id' => 17,
+                'seo_title' => 'Corrugated Boxes',
+                'seo_description' => 'Corrugated Boxes',
+                'seo_keyword' => 'Corrugated Boxes',
+                'name' => 'Corrugated Boxes',
+                'slug' => 'corrugated-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            16 => 
+            array (
+                'id' => 17,
+                'category_id' => 12,
+                'seo_title' => 'Custom Cosmetic Display Box Packaging | Cosmetic Boxes Wholesale ',
+                'seo_description' => 'Cosmetic display boxes enhance the beauty and presence of your stores it makes the products more noticeable cosmetic displays Packaging boxes.',
+                'seo_keyword' => 'Cosmetic Display Boxes',
+                'name' => 'Cosmetic Display Boxes',
+                'slug' => 'cosmetic-display-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            17 => 
+            array (
+                'id' => 18,
+                'category_id' => 11,
+                'seo_title' => 'Discount Cream Boxes | Custom Printed Cream Packaging Boxes',
+                'seo_description' => 'Discount custom cream boxes are perfect for cream packaging it provides extra protection cream boxes wholesale are highly cost-effective.',
+                'seo_keyword' => 'cream boxes, cream boxes wholesale, cream boxes packaging ',
+                'name' => 'Cream Boxes',
+                'slug' => 'cream-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            18 => 
+            array (
+                'id' => 19,
+                'category_id' => 17,
+                'seo_title' => 'Cube Boxes',
+                'seo_description' => 'Cube Boxes',
+                'seo_keyword' => 'Cube Boxes',
+                'name' => 'Cube Boxes',
+                'slug' => 'cube-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            19 => 
+            array (
+                'id' => 20,
+                'category_id' => 14,
+                'seo_title' => 'CupCake Boxes',
+                'seo_description' => 'CupCake Boxes',
+                'seo_keyword' => 'CupCake Boxes',
+                'name' => 'CupCake Boxes',
+                'slug' => 'cupcake-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            20 => 
+            array (
+                'id' => 22,
+                'category_id' => 37,
+                'seo_title' => 'Bath Soap Boxes | Custom Packaging Bath Soap Boxes',
+                'seo_description' => 'Custom soap bath boxes are used to promote the soaps in more stylish and expert way designed bath soap boxes will raise your sales and appeal more eyeballs.',
+                'seo_keyword' => 'Bath Soap Boxes, Wholesale Bath Soap Boxes, Custom Bath Soap Boxes, Custom Printed Boxes, Custom Boxes',
+                'name' => 'Bath soap boxes',
+                'slug' => 'custom-bath-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:33',
+                'deleted_at' => NULL,
+            ),
+            21 => 
+            array (
+                'id' => 23,
+                'category_id' => 38,
+                'seo_title' => 'Custom Fancy Paper Pillow Boxes Wholesale | Discount Custom Boxes',
+                'seo_description' => 'Discount Custom Boxes offers Custom Fancy Paper Pillow Boxes of the highest quality with durable materials and precise designs.',
+                'seo_keyword' => 'fancy paper pillow boxes, Custom fancy paper pillow boxes, paper pillow boxes',
+                'name' => 'Custom fancy paper pillow boxes',
+                'slug' => 'custom-fancy-paper-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:12:43',
+                'deleted_at' => NULL,
+            ),
+            22 => 
+            array (
+                'id' => 24,
+                'category_id' => 36,
+                'seo_title' => 'Custom Foldable Hair Extension Boxe',
+                'seo_description' => 'Custom Foldable Hair Extension Boxe',
+                'seo_keyword' => 'Custom Foldable Hair Extension Boxe',
+                'name' => 'Custom Foldable Hair Extension Boxe',
+                'slug' => 'custom-foldable-hair-extension-boxe',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:12:38',
+                'deleted_at' => NULL,
+            ),
+            23 => 
+            array (
+                'id' => 25,
+                'category_id' => 37,
+                'seo_title' => 'Custom Gift Soap Boxes | Boxes for Soap Packaging',
+                'seo_description' => 'You can use soap packaging as a gift for its good packaging good quality gift soap boxes are used these gift soap boxes also help you in branding and advertising. ',
+                'seo_keyword' => 'Custom gift soap boxes',
+                'name' => 'gift soap boxes',
+                'slug' => 'custom-gift-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            24 => 
+            array (
+                'id' => 26,
+                'category_id' => 36,
+                'seo_title' => 'Custom Hair Extension Boxes',
+                'seo_description' => 'Custom Hair Extension Boxes',
+                'seo_keyword' => 'Custom Hair Extension Boxes',
+                'name' => 'Custom Hair Extension Boxes',
+                'slug' => 'custom-hair-extension-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            25 => 
+            array (
+                'id' => 27,
+                'category_id' => 36,
+                'seo_title' => 'Custom Hair Extension Logo Boxes',
+                'seo_description' => 'Custom Hair Extension Logo Boxes',
+                'seo_keyword' => 'Custom Hair Extension Logo Boxes',
+                'name' => 'Hair Extension Logo Boxes',
+                'slug' => 'custom-hair-extension-logo-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            26 => 
+            array (
+                'id' => 28,
+                'category_id' => 38,
+                'seo_title' => 'Pillow Boxes with Handle | Custom Handle Pillow Boxes Wholesale',
+                'seo_description' => 'Discount Custom Boxes offers leading quality Customized Handle Pillow Boxes perfected with fancy accurate prints and precise designs. ',
+                'seo_keyword' => 'custom handle pillow boxes, handle pillow boxes, pillow boxes with handle',
+                'name' => 'Custom handle pillow boxes',
+                'slug' => 'custom-handle-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            27 => 
+            array (
+                'id' => 29,
+                'category_id' => 37,
+                'seo_title' => 'Handmade Soap Boxes |  Soap Handmade Boxes Packaging',
+                'seo_description' => 'Handmade soap boxes will make your products stand out in the market as it is handmade boxes also show the effort and care that you put in each box.',
+                'seo_keyword' => 'Custom handmade soap boxes',
+                'name' => 'handmade soap boxes',
+                'slug' => 'custom-handmade-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            28 => 
+            array (
+                'id' => 30,
+                'category_id' => 38,
+                'seo_title' => 'Custom Kraft Paper Gift Pillow Boxes | Discount Custom Boxes',
+                'seo_description' => 'Discount Custom Boxes offers leading Custom Kraft Gift Pillow Boxes available in all sizes with beautiful customizations.',
+                'seo_keyword' => 'Custom kraft paper gift pillow boxes, paper gift pillow boxes, custom paper gift pillow boxes',
+                'name' => 'Custom kraft paper gift pillow boxes',
+                'slug' => 'custom-kraft-paper-gift-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            29 => 
+            array (
+                'id' => 31,
+                'category_id' => 38,
+                'seo_title' => 'Custom Kraft Paper Pillow Boxes | Discount Custom Boxes',
+                'seo_description' => 'Kraft paper pillow boxes are made with special Kraft paper which is strong and able to hold many productss in one box Kraft pillow boxes are best for retailers.',
+                'seo_keyword' => 'Custom kraft paper pillow boxes',
+                'name' => 'Custom kraft paper pillow boxes',
+                'slug' => 'custom-kraft-paper-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            30 => 
+            array (
+                'id' => 32,
+                'category_id' => 38,
+                'seo_title' => 'Custom Kraft Pillow Soap Boxes | Discount Custom Boxes',
+                'seo_description' => 'Kraft pillow soap boxes make packaging of soap easy the paper for making these boxes is excellent custom Kraft pillow boxes are best choice for everyone.',
+                'seo_keyword' => 'Custom kraft pillow soap boxes',
+                'name' => 'kraft pillow soap boxes',
+                'slug' => 'custom-kraft-pillow-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            31 => 
+            array (
+                'id' => 33,
+                'category_id' => 37,
+                'seo_title' => 'Kraft Soap Boxes | Custom Packaging Soap Kraft Boxes',
+                'seo_description' => 'Custom Kraft soap boxes are the most new packaging products in this regard and good as compare to other boxes Kraft box is the best for the safety of soap.',
+                'seo_keyword' => 'Custom kraft soap boxes, Kraft soap boxes',
+                'name' => 'kraft soap boxes',
+                'slug' => 'custom-kraft-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            32 => 
+            array (
+                'id' => 34,
+                'category_id' => 38,
+                'seo_title' => 'Custom Large Pillow Boxes Wholesale | Discount Custom Boxes',
+                'seo_description' => 'Sometime you need extra space for packaging of more things large pillow boxes gave you the facility so that you can safe more stuff in these large pillow boxes.',
+                'seo_keyword' => 'Custom large pillow boxes',
+                'name' => 'Custom large pillow boxes',
+                'slug' => 'custom-large-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            33 => 
+            array (
+                'id' => 35,
+                'category_id' => 36,
+                'seo_title' => 'Custom Luxury Hair Extension Boxes',
+                'seo_description' => 'Custom Luxury Hair Extension Boxes',
+                'seo_keyword' => 'Custom Luxury Hair Extension Boxes',
+                'name' => 'Custom Luxury Hair Extension Boxes',
+                'slug' => 'custom-luxury-hair-extension-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            34 => 
+            array (
+                'id' => 36,
+                'category_id' => 38,
+                'seo_title' => 'Custom Luxury Pillow Boxes Wholesale With Logo',
+                'seo_description' => 'Luxury pillow box is best among all other pillow boxes it gives a chance to show attractive packaging than any other luxury pillow boxes are also used for gifting purpose.',
+                'seo_keyword' => 'luxury pillow boxes',
+                'name' => 'Custom luxury pillow boxes',
+                'slug' => 'custom-luxury-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            35 => 
+            array (
+                'id' => 37,
+                'category_id' => 36,
+                'seo_title' => 'Custom Matte Black Hair Extension Boxes',
+                'seo_description' => 'Custom Matte Black Hair Extension Boxes',
+                'seo_keyword' => 'Custom Matte Black Hair Extension Boxes',
+                'name' => 'Matte Black Hair Extension Boxes',
+                'slug' => 'custom-matte-black-hair-extension-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            36 => 
+            array (
+                'id' => 38,
+                'category_id' => 37,
+                'seo_title' => 'Paper Soap Boxes |  Soap Paper Packaging and Printable',
+                'seo_description' => 'Custom Paper soap boxes help to determine the strength of the paper. paper soap boxes are one of the most depended and frequent packaging material.',
+                'seo_keyword' => 'Custom paper soap boxes',
+                'name' => 'paper Soap boxes',
+                'slug' => 'custom-paper-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            37 => 
+            array (
+                'id' => 39,
+                'category_id' => 36,
+                'seo_title' => 'Custom Pillow Hair Extension Boxes',
+                'seo_description' => 'Custom Pillow Hair Extension Boxes',
+                'seo_keyword' => 'Custom Pillow Hair Extension Boxes',
+                'name' => 'Custom Pillow Hair Extension Boxes',
+                'slug' => 'custom-pillow-hair-extension-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            38 => 
+            array (
+                'id' => 40,
+                'category_id' => 38,
+                'seo_title' => 'Custom Pillow Luxury Gift Boxes Wholesale | DiscountCustomBoxes',
+                'seo_description' => 'Luxury pillow gift box is best among all other boxes it gives a chance to show attractive packaging of pillow luxury gift boxes are also used for gifting purpose.',
+                'seo_keyword' => 'Custom pillow luxury gift boxes',
+                'name' => 'Custom pillow luxury gift boxes',
+                'slug' => 'custom-pillow-luxury-gift-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            39 => 
+            array (
+                'id' => 41,
+                'category_id' => 38,
+                'seo_title' => 'Custom Printed Tea Pillow Boxes | Discount Custom Boxes',
+                'seo_description' => 'Custom tea printed pillow boxes introduced tea in a unique way many tea lovers choose tea which has good packaging and tea pillow boxes are good enough for this.',
+                'seo_keyword' => 'Custom printed tea pillow boxes',
+                'name' => 'Custom printed tea pillow boxes',
+                'slug' => 'custom-printed-tea-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            40 => 
+            array (
+                'id' => 42,
+                'category_id' => 37,
+                'seo_title' => 'Soap Boxes New Design | Custom Packaging Soap Boxes',
+                'seo_description' => 'Use new design soap boxes to wrap your productss in a decent manner custom new design soap boxes will provide you excellent collection of boxes at low cost.',
+                'seo_keyword' => 'Custom soap boxes new design, soap boxes ',
+                'name' => 'soap boxes new design',
+                'slug' => 'custom-soap-boxes-new-design',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            41 => 
+            array (
+                'id' => 43,
+                'category_id' => 37,
+                'seo_title' => 'Die Cut Soap Boxes | Custom Packaging Soap Die Cut Boxes',
+                'seo_description' => 'Die cut soap boxes are best for soap manufacturing companies die cut is a process through which you can get the desired box die soap boxes are easy to handle.',
+                'seo_keyword' => 'Custom soap die cut boxes, soap die cut boxes',
+                'name' => 'die cut soap boxes',
+                'slug' => 'custom-soap-die-cut-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            42 => 
+            array (
+                'id' => 44,
+                'category_id' => 37,
+                'seo_title' => 'Flip Soap Boxes | Custom Packaging Soap Flip Boxes',
+                'seo_description' => 'Custom sop flip boxes is a nice way to make humans attracted you can get desired flip soap boxes with numerous styles they are also very cost effective.',
+                'seo_keyword' => 'Custom soap flip boxes, Flip Soap Boxes ',
+                'name' => ' flip soap boxes',
+                'slug' => 'custom-soap-flip-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:34',
+                'deleted_at' => NULL,
+            ),
+            43 => 
+            array (
+                'id' => 45,
+                'category_id' => 37,
+                'seo_title' => 'Hexagon Soap Boxes | Custom Packaging Soap Hexagon Boxes',
+                'seo_description' => 'Hexagon shape boxes are best for round soap bar hexagon box is a unique style you can add more than one soap in these hexagon soap boxes they also have windows.',
+                'seo_keyword' => 'Custom soap hexagon boxes',
+                'name' => 'hexagon soap boxes',
+                'slug' => 'custom-soap-hexagon-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            44 => 
+            array (
+                'id' => 46,
+                'category_id' => 37,
+                'seo_title' => 'Sleeve Soap Boxes | Custom Packaging Soap Sleeve Boxes',
+                'seo_description' => 'Soap sleeve boxes are used to glamorize the packing of more than a few items sleep soap boxes beautify the productss and secure them from atmospheric conditions.',
+                'seo_keyword' => 'Custom soap sleeve boxes, soap sleeve boxes',
+                'name' => 'sleeve soap boxes',
+                'slug' => 'custom-soap-sleeve-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            45 => 
+            array (
+                'id' => 47,
+                'category_id' => 38,
+                'seo_title' => 'Custom Wedding Gift Pillow Boxes | Discount Custom Boxes',
+                'seo_description' => 'Wedding is n special occasion in everyoneâ€™s life and wedding gift pillow boxes makes it more special you can your gifts in these wedding pillow boxes.',
+                'seo_keyword' => 'Custom wedding gift pillow boxes',
+                'name' => 'Custom wedding gift pillow boxes',
+                'slug' => 'custom-wedding-gift-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            46 => 
+            array (
+                'id' => 48,
+                'category_id' => 38,
+                'seo_title' => 'Custom White Pillow Boxes Wholesale With Logo ',
+                'seo_description' => 'Mostly boxes are colorless white pillow boxes doesnâ€™t have any color or print on it because some customers wants these white pillow boxes give a decent look.',
+                'seo_keyword' => 'Custom white pillow boxes',
+                'name' => 'Custom white pillow boxes',
+                'slug' => 'custom-white-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            47 => 
+            array (
+                'id' => 49,
+                'category_id' => 36,
+                'seo_title' => 'Custom Wig Pillow Boxes',
+                'seo_description' => 'Custom Wig Pillow Boxes',
+                'seo_keyword' => 'Custom Wig Pillow Boxes',
+                'name' => 'Custom Wig Pillow Boxes',
+                'slug' => 'custom-wig-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            48 => 
+            array (
+                'id' => 50,
+                'category_id' => 38,
+                'seo_title' => 'Custom Window Pillow Boxes Wholesale With Logo',
+                'seo_description' => 'Window pillow boxes are usually manufactured from cardboard these are light weighed custom window pillow boxes also have ability to carry heavy productss.',
+                'seo_keyword' => 'Custom window pillow boxes',
+                'name' => 'Custom window pillow boxes',
+                'slug' => 'custom-window-pillow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            49 => 
+            array (
+                'id' => 51,
+                'category_id' => 37,
+                'seo_title' => 'Window Soap Boxes | Custom Window Soap Packaging Boxes',
+                'seo_description' => 'Custom window soap boxes is the best solution it gives a complete packaging look to your box a window box is four side box with cellophane on one side.',
+                'seo_keyword' => 'Custom window soap boxes, window soap boxes',
+                'name' => 'window soap boxes',
+                'slug' => 'custom-window-soap-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            50 => 
+            array (
+                'id' => 52,
+                'category_id' => 17,
+                'seo_title' => 'Die Cut Boxes',
+                'seo_description' => 'Die Cut Boxes',
+                'seo_keyword' => 'Die Cut Boxes',
+                'name' => 'Die Cut Boxes',
+                'slug' => 'die-cut-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            51 => 
+            array (
+                'id' => 53,
+                'category_id' => 12,
+                'seo_title' => 'Display Boxes',
+                'seo_description' => 'Display Boxes',
+                'seo_keyword' => 'Display Boxes',
+                'name' => 'Display Boxes',
+                'slug' => 'display-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            52 => 
+            array (
+                'id' => 54,
+                'category_id' => 14,
+                'seo_title' => 'Donut Boxes',
+                'seo_description' => 'Donut Boxes',
+                'seo_keyword' => 'Donut Boxes',
+                'name' => 'Donut Boxes',
+                'slug' => 'donut-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            53 => 
+            array (
+                'id' => 55,
+                'category_id' => 23,
+                'seo_title' => 'Double Locked Wall Lid',
+                'seo_description' => 'Double Locked Wall Lid',
+                'seo_keyword' => 'Double Locked Wall Lid',
+                'name' => 'Double Locked Wall Lid',
+                'slug' => 'double-locked-wall-lid',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            54 => 
+            array (
+                'id' => 56,
+                'category_id' => 23,
+                'seo_title' => 'Double Wall Tray',
+                'seo_description' => 'Double Wall Tray',
+                'seo_keyword' => 'Double Wall Tray',
+                'name' => 'Double Wall Tray',
+                'slug' => 'double-wall-tray',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            55 => 
+            array (
+                'id' => 57,
+                'category_id' => 22,
+                'seo_title' => 'Double Wall Tuck Front',
+                'seo_description' => 'Double Wall Tuck Front',
+                'seo_keyword' => 'Double Wall Tuck Front',
+                'name' => 'Double Wall Tuck Front',
+                'slug' => 'double-wall-tuck-front',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            56 => 
+            array (
+                'id' => 58,
+                'category_id' => 19,
+                'seo_title' => 'Double Wall Tuck Top',
+                'seo_description' => 'Double Wall Tuck Top',
+                'seo_keyword' => 'Double Wall Tuck Top',
+                'name' => 'Double Wall Tuck Top',
+                'slug' => 'double-wall-tuck-top',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            57 => 
+            array (
+                'id' => 59,
+                'category_id' => 20,
+                'seo_title' => 'Double Wall with Display Lid',
+                'seo_description' => 'Double Wall with Display Lid',
+                'seo_keyword' => 'Double Wall with Display Lid',
+                'name' => 'Double Wall with Display Lid',
+                'slug' => 'double-wall-with-display-lid',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            58 => 
+            array (
+                'id' => 60,
+                'category_id' => 11,
+                'seo_title' => 'Eyelash Box Packaging | Cheap Custom Eyelash Boxes Wholesale ',
+                'seo_description' => 'we offer custom eyelash boxes wholesale is very important for a woman it enhances their facial look. Eyelash box packaging is necessary to protect your products.',
+                'seo_keyword' => 'Eyelash Box Packaging, Eyelash Boxes, Eyelash Boxes Wholesale',
+                'name' => 'Eyelash Boxes',
+                'slug' => 'eyelash-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            59 => 
+            array (
+                'id' => 61,
+                'category_id' => 11,
+                'seo_title' => 'Custom Eyeliner Box Packaging | Cheap Eyeliner Boxes Wholesale ',
+                'seo_description' => 'We offer cheap eyeliner boxes are an ideal and a must packaging that helps in preserving the products in its original quality these eyeliner boxes.',
+                'seo_keyword' => 'Eyeliner Boxes',
+                'name' => 'Eyeliner Boxes',
+                'slug' => 'eyeliner-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            60 => 
+            array (
+                'id' => 62,
+                'category_id' => 11,
+                'seo_title' => 'EyeShadow Boxes | Custom Packaging EyeShadow Boxes Wholesale ',
+                'seo_description' => 'Eye shadows boxes are one of the most used products without eye shadow makeup is incomplete eyeshadow boxes are perfect and punctual and easily moveable.',
+                'seo_keyword' => 'EyeShadow Boxes, EyeShadow packaging boxes',
+                'name' => 'Eyeshadow Boxes',
+                'slug' => 'eyeshadow-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            61 => 
+            array (
+                'id' => 63,
+                'category_id' => 15,
+                'seo_title' => 'Favor Boxes',
+                'seo_description' => 'Favor Boxes',
+                'seo_keyword' => 'Favor Boxes',
+                'name' => 'Favor Boxes',
+                'slug' => 'favor-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            62 => 
+            array (
+                'id' => 64,
+                'category_id' => 20,
+                'seo_title' => 'Five Panel Hanger',
+                'seo_description' => 'Five Panel Hanger',
+                'seo_keyword' => 'Five Panel Hanger',
+                'name' => 'Five Panel Hanger',
+                'slug' => 'five-panel-hanger',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            63 => 
+            array (
+                'id' => 65,
+                'category_id' => 23,
+                'seo_title' => 'Foot Lock Tray',
+                'seo_description' => 'Foot Lock Tray',
+                'seo_keyword' => 'Foot Lock Tray',
+                'name' => 'Foot Lock Tray',
+                'slug' => 'foot-lock-tray',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:35',
+                'deleted_at' => NULL,
+            ),
+            64 => 
+            array (
+                'id' => 66,
+                'category_id' => 11,
+                'seo_title' => 'Foundation Boxes | Custom Packaging Foundation Boxes Wholesale',
+                'seo_description' => 'Foundation boxes are used for packaging of various kinds of packaging these boxes preserve foundation from weather tempering you can also put the company name on it.',
+                'seo_keyword' => 'foundation boxes, wholesale foundation boxes',
+                'name' => 'Foundation Boxes',
+                'slug' => 'foundation-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            65 => 
+            array (
+                'id' => 67,
+                'category_id' => 22,
+                'seo_title' => 'Four Corner Cake Box',
+                'seo_description' => 'Four Corner Cake Box',
+                'seo_keyword' => 'Four Corner Cake Box',
+                'name' => 'Four Corner Cake Box',
+                'slug' => 'four-corner-cake-box',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            66 => 
+            array (
+                'id' => 68,
+                'category_id' => 21,
+                'seo_title' => 'Four Corner Tray',
+                'seo_description' => 'Four Corner Tray',
+                'seo_keyword' => 'Four Corner Tray',
+                'name' => 'Four Corner Tray',
+                'slug' => 'four-corner-tray',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            67 => 
+            array (
+                'id' => 69,
+                'category_id' => 19,
+                'seo_title' => 'Four Corner with Display Lid',
+                'seo_description' => 'Four Corner with Display Lid',
+                'seo_keyword' => 'Four Corner with Display Lid',
+                'name' => 'Four Corner with Display Lid',
+                'slug' => 'four-corner-with-display-lid',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            68 => 
+            array (
+                'id' => 70,
+                'category_id' => 24,
+                'seo_title' => 'Four Panal CD Jacket',
+                'seo_description' => 'Four Panal CD Jacket',
+                'seo_keyword' => 'Four Panal CD Jacket',
+                'name' => 'Four Panal CD Jacket',
+                'slug' => 'four-panal-cd-jacket',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            69 => 
+            array (
+                'id' => 71,
+                'category_id' => 18,
+                'seo_title' => 'Full Flap Auto Bottom',
+                'seo_description' => 'Full Flap Auto Bottom',
+                'seo_keyword' => 'Full Flap Auto Bottom',
+                'name' => 'Full Flap Auto Bottom',
+                'slug' => 'full-flap-auto-bottom',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            70 => 
+            array (
+                'id' => 72,
+                'category_id' => 23,
+                'seo_title' => 'Gable Bag',
+                'seo_description' => 'Gable Bag',
+                'seo_keyword' => 'Gable Bag',
+                'name' => 'Gable Bag',
+                'slug' => 'gable-bag',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            71 => 
+            array (
+                'id' => 73,
+                'category_id' => 19,
+                'seo_title' => 'Gable Bag Auto Bottom',
+                'seo_description' => 'Gable Bag Auto Bottom',
+                'seo_keyword' => 'Gable Bag Auto Bottom',
+                'name' => 'Gable Bag Auto Bottom',
+                'slug' => 'gable-bag-auto-bottom',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            72 => 
+            array (
+                'id' => 74,
+                'category_id' => 19,
+                'seo_title' => 'Gable Bag Bottom Hanger',
+                'seo_description' => 'Gable Bag Bottom Hanger',
+                'seo_keyword' => 'Gable Bag Bottom Hanger',
+                'name' => 'Gable Bag Bottom Hanger',
+                'slug' => 'gable-bag-bottom-hanger',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            73 => 
+            array (
+                'id' => 75,
+                'category_id' => 22,
+                'seo_title' => 'Gable Box Auto Bottom',
+                'seo_description' => 'Gable Box Auto Bottom',
+                'seo_keyword' => 'Gable Box Auto Bottom',
+                'name' => 'Gable Box Auto Bottom',
+                'slug' => 'gable-box-auto-bottom',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            74 => 
+            array (
+                'id' => 76,
+                'category_id' => 15,
+                'seo_title' => 'Gable Boxes',
+                'seo_description' => 'Gable Boxes',
+                'seo_keyword' => 'Gable Boxes',
+                'name' => 'Gable Boxes',
+                'slug' => 'gable-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            75 => 
+            array (
+                'id' => 77,
+                'category_id' => 15,
+                'seo_title' => 'Gift Card Boxes',
+                'seo_description' => 'Gift Card Boxes',
+                'seo_keyword' => 'Gift Card Boxes',
+                'name' => 'Gift Card Boxes',
+                'slug' => 'gift-card-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            76 => 
+            array (
+                'id' => 78,
+                'category_id' => 16,
+                'seo_title' => 'Gold Foil Boxes',
+                'seo_description' => 'Gold Foil Boxes',
+                'seo_keyword' => 'Gold Foil Boxes',
+                'name' => 'Gold Foil Boxes',
+                'slug' => 'gold-foil-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            77 => 
+            array (
+                'id' => 79,
+                'category_id' => 15,
+                'seo_title' => 'Handle Boxes',
+                'seo_description' => 'Handle Boxes',
+                'seo_keyword' => 'Handle Boxes',
+                'name' => 'Handle Boxes',
+                'slug' => 'handle-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            78 => 
+            array (
+                'id' => 80,
+                'category_id' => 22,
+                'seo_title' => 'Hexagon',
+                'seo_description' => 'Hexagon',
+                'seo_keyword' => 'Hexagon',
+                'name' => 'Hexagon',
+                'slug' => 'hexagon',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            79 => 
+            array (
+                'id' => 81,
+                'category_id' => 23,
+                'seo_title' => 'Ice Cream Cone Holder',
+                'seo_description' => 'Ice Cream Cone Holder',
+                'seo_keyword' => 'Ice Cream Cone Holder',
+                'name' => 'Ice Cream Cone Holder',
+                'slug' => 'ice-cream-cone-holder',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            80 => 
+            array (
+                'id' => 82,
+                'category_id' => 13,
+                'seo_title' => 'Kraft Boxes',
+                'seo_description' => 'Kraft Boxes',
+                'seo_keyword' => 'Kraft Boxes',
+                'name' => 'Kraft Boxes',
+                'slug' => 'kraft-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            81 => 
+            array (
+                'id' => 83,
+                'category_id' => 11,
+                'seo_title' => 'Custom Printed Lip Balm Boxes and Wholesale Packaging',
+                'seo_description' => 'Lip balm is widely used all over the word it is directly applied to the lips so lip balm boxes are used for the safety designed lip balm boxes can growth the sales.',
+                'seo_keyword' => 'Lip Balm Boxes, Lip Balm Box printing',
+                'name' => 'Lip Balm Boxes',
+                'slug' => 'lip-balm-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            82 => 
+            array (
+                'id' => 84,
+                'category_id' => 11,
+                'seo_title' => 'Lip Gloss Boxes | Custom Packaging Lip Gloss Boxes Wholesale',
+                'seo_description' => 'Lip gloss boxes are used for branding and supplying lip glosses these gloss boxes are used to packaged lip gloss to make them really worth out for clients.',
+                'seo_keyword' => 'Lip Gloss Boxes, Packaging Lip Gloss Boxes',
+                'name' => 'Lip Gloss Boxes',
+                'slug' => 'lip-gloss-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            83 => 
+            array (
+                'id' => 85,
+                'category_id' => 11,
+                'seo_title' => 'Lotion Boxes | Custom Packaging Lotion Boxes Wholesale',
+                'seo_description' => 'Lotion boxes are best for saving lotion from harmful effects because it used on human body printed lotion boxes also increase the demand of lotion in the market.',
+                'seo_keyword' => 'Lotion Boxes, Lotion Box printing ',
+                'name' => 'Lotion Boxes',
+                'slug' => 'lotion-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:36',
+                'deleted_at' => NULL,
+            ),
+            84 => 
+            array (
+                'id' => 86,
+                'category_id' => 11,
+                'seo_title' => 'Mascara Boxes | Custom Packaging Mascara Boxes Wholesale ',
+                'seo_description' => 'Eyes are most important part of body and mascara makes them more attractive mascara boxes are becoming very popular mascara box saves it from outside effects.',
+                'seo_keyword' => 'Mascara Boxes, Mascara Box printing',
+                'name' => 'Mascara Boxes',
+                'slug' => 'mascara-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            85 => 
+            array (
+                'id' => 87,
+                'category_id' => 17,
+                'seo_title' => 'Medicine Boxes',
+                'seo_description' => 'Medicine Boxes',
+                'seo_keyword' => 'Medicine Boxes',
+                'name' => 'Medicine Boxes',
+                'slug' => 'medicine-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            86 => 
+            array (
+                'id' => 88,
+                'category_id' => 20,
+                'seo_title' => 'Paper Brief Case',
+                'seo_description' => 'Paper Brief Case',
+                'seo_keyword' => 'Paper Brief Case',
+                'name' => 'Paper Brief Case',
+                'slug' => 'paper-brief-case',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            87 => 
+            array (
+                'id' => 89,
+                'category_id' => 11,
+                'seo_title' => 'Perfume Boxes | Custom Packaging Perfume Boxes Wholesale ',
+                'seo_description' => 'The awesome feature of our perfume boxes aside from being satisfactory and strongest is that they are made from absolutely eco-friendly materials. ',
+                'seo_keyword' => 'Perfume Boxes, custom Perfume Boxes, Perfume Box printing ',
+                'name' => 'Perfume Boxes',
+                'slug' => 'perfume-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            88 => 
+            array (
+                'id' => 90,
+                'category_id' => 14,
+                'seo_title' => 'Pizza Boxes',
+                'seo_description' => 'Pizza Boxes',
+                'seo_keyword' => 'Pizza Boxes',
+                'name' => 'Pizza Boxes',
+                'slug' => 'pizza-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            89 => 
+            array (
+                'id' => 91,
+                'category_id' => 17,
+                'seo_title' => 'Playing Card Boxes',
+                'seo_description' => 'Playing Card Boxes',
+                'seo_keyword' => 'Playing Card Boxes',
+                'name' => 'Playing Card Boxes',
+                'slug' => 'playing-card-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            90 => 
+            array (
+                'id' => 92,
+                'category_id' => 14,
+                'seo_title' => 'Popcorn Boxes',
+                'seo_description' => 'Popcorn Boxes',
+                'seo_keyword' => 'Popcorn Boxes',
+                'name' => 'Popcorn Boxes',
+                'slug' => 'popcorn-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            91 => 
+            array (
+                'id' => 93,
+                'category_id' => 17,
+                'seo_title' => 'Pyramid Boxes',
+                'seo_description' => 'Pyramid Boxes',
+                'seo_keyword' => 'Pyramid Boxes',
+                'name' => 'Pyramid Boxes',
+                'slug' => 'pyramid-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            92 => 
+            array (
+                'id' => 94,
+                'category_id' => 23,
+                'seo_title' => 'Regular Six Corner',
+                'seo_description' => 'Regular Six Corner',
+                'seo_keyword' => 'Regular Six Corner',
+                'name' => 'Regular Six Corner',
+                'slug' => 'regular-six-corner',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            93 => 
+            array (
+                'id' => 95,
+                'category_id' => 21,
+                'seo_title' => 'Reverse Tuck End',
+                'seo_description' => 'Reverse Tuck End',
+                'seo_keyword' => 'Reverse Tuck End',
+                'name' => 'Reverse Tuck End',
+                'slug' => 'reverse-tuck-end',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            94 => 
+            array (
+                'id' => 96,
+                'category_id' => 21,
+                'seo_title' => 'Seal End',
+                'seo_description' => 'Seal End',
+                'seo_keyword' => 'Seal End',
+                'name' => 'Seal End',
+                'slug' => 'seal-end',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            95 => 
+            array (
+                'id' => 97,
+                'category_id' => 18,
+                'seo_title' => 'Seal End Auto Bottom',
+                'seo_description' => 'Seal End Auto Bottom',
+                'seo_keyword' => 'Seal End Auto Bottom',
+                'name' => 'Seal End Auto Bottom',
+                'slug' => 'seal-end-auto-bottom',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            96 => 
+            array (
+                'id' => 98,
+                'category_id' => 19,
+                'seo_title' => 'Self Lock Cake Box',
+                'seo_description' => 'Self Lock Cake Box',
+                'seo_keyword' => 'Self Lock Cake Box',
+                'name' => 'Self Lock Cake Box',
+                'slug' => 'self-lock-cake-box',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            97 => 
+            array (
+                'id' => 99,
+                'category_id' => 16,
+                'seo_title' => 'Silver Foil Boxes',
+                'seo_description' => 'Silver Foil Boxes',
+                'seo_keyword' => 'Silver Foil Boxes',
+                'name' => 'Silver Foil Boxes',
+                'slug' => 'silver-foil-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            98 => 
+            array (
+                'id' => 100,
+                'category_id' => 24,
+                'seo_title' => 'Six Panel CD Jacket',
+                'seo_description' => 'Six Panel CD Jacket',
+                'seo_keyword' => 'Six Panel CD Jacket',
+                'name' => 'Six Panel CD Jacket',
+                'slug' => 'six-panel-cd-jacket',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            99 => 
+            array (
+                'id' => 101,
+                'category_id' => 17,
+                'seo_title' => 'Sleeve Boxes',
+                'seo_description' => 'Sleeve Boxes',
+                'seo_keyword' => 'Sleeve Boxes',
+                'name' => 'Sleeve Boxes',
+                'slug' => 'sleeve-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            100 => 
+            array (
+                'id' => 102,
+                'category_id' => 14,
+                'seo_title' => 'Snack Boxes',
+                'seo_description' => 'Snack Boxes',
+                'seo_keyword' => 'Snack Boxes',
+                'name' => 'Snack Boxes',
+                'slug' => 'snack-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            101 => 
+            array (
+                'id' => 103,
+                'category_id' => 8,
+                'seo_title' => 'software',
+                'seo_description' => 'asadsdasda',
+                'seo_keyword' => 'software',
+                'name' => 'software',
+                'slug' => 'software',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            102 => 
+            array (
+                'id' => 104,
+                'category_id' => 17,
+                'seo_title' => 'Software Boxes',
+                'seo_description' => 'Software Boxes',
+                'seo_keyword' => 'Software Boxes',
+                'name' => 'Software Boxes',
+                'slug' => 'software-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            103 => 
+            array (
+                'id' => 105,
+                'category_id' => 21,
+                'seo_title' => 'Straight Tuck End',
+                'seo_description' => 'Straight Tuck End',
+                'seo_keyword' => 'Straight Tuck End',
+                'name' => 'Straight Tuck End',
+                'slug' => 'straight-tuck-end',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            104 => 
+            array (
+                'id' => 106,
+                'category_id' => 17,
+                'seo_title' => 'Toy Boxes',
+                'seo_description' => 'Toy Boxes',
+                'seo_keyword' => 'Toy Boxes',
+                'name' => 'Toy Boxes',
+                'slug' => 'toy-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:37',
+                'deleted_at' => NULL,
+            ),
+            105 => 
+            array (
+                'id' => 107,
+                'category_id' => 22,
+                'seo_title' => 'Tray and Sleeve Box',
+                'seo_description' => 'Tray and Sleeve Box',
+                'seo_keyword' => 'Tray and Sleeve Box',
+                'name' => 'Tray and Sleeve Box',
+                'slug' => 'tray-and-sleeve-box',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:38',
+                'deleted_at' => NULL,
+            ),
+            106 => 
+            array (
+                'id' => 108,
+                'category_id' => 21,
+                'seo_title' => 'Tuck End Auto Bottom',
+                'seo_description' => 'Tuck End Auto Bottom',
+                'seo_keyword' => 'Tuck End Auto Bottom',
+                'name' => 'Tuck End Auto Bottom',
+                'slug' => 'tuck-end-auto-bottom',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:38',
+                'deleted_at' => NULL,
+            ),
+            107 => 
+            array (
+                'id' => 109,
+                'category_id' => 24,
+                'seo_title' => 'Two Panel CD Jacket',
+                'seo_description' => 'Two Panel CD Jacket',
+                'seo_keyword' => 'Two Panel CD Jacket',
+                'name' => 'Two Panel CD Jacket',
+                'slug' => 'two-panel-cd-jacket',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 0,
+                'is_active' => 0,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:38',
+                'deleted_at' => NULL,
+            ),
+            108 => 
+            array (
+                'id' => 110,
+                'category_id' => 17,
+                'seo_title' => 'Window Boxes',
+                'seo_description' => 'Window Boxes',
+                'seo_keyword' => 'Window Boxes',
+                'name' => 'Window Boxes',
+                'slug' => 'window-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:38',
+                'deleted_at' => NULL,
+            ),
+            109 => 
+            array (
+                'id' => 111,
+                'category_id' => 36,
+                'seo_title' => 'Window Hair Extension Boxes',
+                'seo_description' => 'Window Hair Extension Boxes',
+                'seo_keyword' => 'Window Hair Extension Boxes',
+                'name' => 'Window Hair Extension Boxes',
+                'slug' => 'window-hair-extension-boxes',
+                'short_description' => 'Looking for exceptional quality CBD packaging solutions? We offer a diverse range of design, customization, and printing choices. We offer free shipping and low rates. If you want to stand out from the crowd of similars in the CBD industry, exclusive and remarkable packaging is a must for you. CBD packaging boxes having an outstanding range of designs, colors, shapes, and styles, along with unbeatable printing and customization features, can play a great role in the success of your brand',
+                'description' => '<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare euismod ipsum, pulvinar condimentum nibh dictum ut. Donec id hendrerit elit. Sed tincidunt augue quis arcu pharetra faucibus. Phasellus lacus justo, varius sed sem at, euismod consequat lectus. Proin gravida nisl sed odio faucibus, eget mattis eros placerat. Vivamus non nisi in magna consequat elementum sed a risus. Proin eget leo eget enim maximus imperdiet.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Morbi mauris erat, condimentum non tellus sit amet, facilisis posuere quam. Donec quam urna, dignissim quis molestie in, euismod ut nulla. Mauris rutrum arcu mi, sed malesuada neque maximus vel. Praesent tincidunt nisi sed risus interdum, quis ornare dui semper. Etiam arcu ex, semper sit amet sem nec, tempus gravida orci. Morbi sollicitudin dui porta consectetur imperdiet. Quisque vitae lobortis nisi. Duis eu ullamcorper dui. Donec sagittis lacus ut mattis auctor. Donec id finibus lacus. Aenean bibendum mi tortor, vitae convallis elit lobortis in. Maecenas sit amet ipsum eget mi efficitur vehicula vitae sed ligula. In ultrices porttitor urna, vitae interdum erat fermentum non. Donec imperdiet tortor ut augue suscipit sodales. Fusce scelerisque quam ultricies mauris condimentum, et facilisis enim congue.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Vestibulum nibh enim, lacinia ut dapibus sed, iaculis vitae est. Ut faucibus, ex eu cursus consequat, mi tortor dapibus sem, vel maximus elit nunc vel ex. Sed nunc ligula, mattis id risus sit amet, bibendum sollicitudin urna. Sed condimentum elit ante, a vehicula urna ultricies et. Nunc sed mollis libero, vel hendrerit nisl. Quisque in nunc nec tortor lobortis pretium. Proin ac ante ullamcorper, rhoncus orci nec, ultrices leo. Maecenas ut molestie ipsum. Morbi vitae augue in nunc blandit sollicitudin eget et ex. Donec erat nibh, facilisis nec mauris a, tempor gravida eros. Donec ut tempus massa. Duis efficitur sed lorem eu pellentesque. Pellentesque ut posuere tellus, sed fermentum dolor. Aenean facilisis, orci ut viverra hendrerit, turpis ligula finibus elit, id elementum erat ex cursus nunc.</p>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; , Arial, sans-serif; font-size: 14px; background-color: #ffffff;">Sed quis mattis massa. Nam placerat consectetur sapien. Sed quis pretium justo. Donec ut libero massa. Praesent sed enim felis. Integer nec neque felis. Quisque porttitor urna eu urna venenatis, at venenatis ante cursus. Donec mattis velit in egestas finibus. Donec justo tortor, pharetra et quam id, cursus porttitor risus. Proin eu metus vestibulum, feugiat leo in, dapibus nisi. Vivamus pellentesque, odio ut ultrices tempus, tortor felis molestie purus, interdum venenatis eros massa vel ex. Duis rhoncus semper sollicitudin. Praesent pellentesque sed ipsum vel suscipit. In non rutrum felis, sed consectetur est. Praesent imperdiet tellus eu tellus ultricies molestie. Quisque hendrerit scelerisque sem accumsan accumsan.</p>',
+                'menu_image' => 'images/products/ZuFGzWB1MLQac5H6VPy1J2IBMZptRsq1sVFzLcDn.png',
+                'image_1' => 'images/products/WqYiTB96ZPDM7vQhR0DJhyIVnwVYrmYl4a5JCZBI.png',
+                'image_2' => 'images/products/KLxOAOFwdX60VyBwrjflXy9yZdBm6zRxipk6R0vb.png',
+                'image_3' => 'images/products/v8B4XzHD2OFDF3vYZyLuGtX2tUKTIaWJo9AULq3r.png',
+                'image_4' => 'images/products/y7GRlZUvbP5Oglft4reYOBTbTlc0qqUwrWKpMlkx.png',
+                'is_featured' => 1,
+                'is_active' => 1,
+                'in_menu' => 1,
+                'created_at' => '2021-10-30 11:48:34',
+                'updated_at' => '2022-01-06 08:11:38',
+                'deleted_at' => NULL,
+            ),
+        ));
+        
+        
+    }
+}
