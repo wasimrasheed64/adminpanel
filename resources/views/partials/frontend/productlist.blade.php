@@ -27,7 +27,7 @@
 
                         <div class="product-action">
 
-                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart" title="Select Options"><span>Request a Qoute</span></a>
+                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart btn-qoute" title="Select Options"><span>Request a Qoute</span></a>
 
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-<section class="mb-5">
+<section class="">
     <div class="container">
         <h4 class="title title-sm mt-8 title-line title-underline"><span>What our customers says</span></h4>
         <div class="code-template p-2">
@@ -22,19 +22,18 @@
                                 }
                             }">
                 @foreach(App\Models\Testimonial::all() as $testimonial)
-                    <div class="testimonial testimonial-centered ">
-                    <div class="testimonial-info">
-{{--                        <h3 class="testimonial-title">What they say about us</h3>--}}
-                        <figure class="testimonial-author-thumbnail">
-                            <img src="{{ $testimonial->image }}" alt="user" width="40" height="40" />
-                        </figure>
-                        <blockquote> {{ $testimonial->description }}</blockquote>
-                        <cite>
-                            {{ $testimonial->name }}
-                            <span>{{ $testimonial->designation }}</span>
-                        </cite>
+                    <div class="testimonial ">
+                        <blockquote>{{ $testimonial->description }}</blockquote>
+                        <div class="testimonial-info">
+                            <figure class="testimonial-author-thumbnail">
+                                <img src="{{ $testimonial->image }}" alt="user" width="50" height="50"/>
+                            </figure>
+                            <cite>
+                                {{ $testimonial->name }}
+                                <span>{{ $testimonial->designation }}</span>
+                            </cite>
+                        </div>
                     </div>
-                </div>
                 @endforeach
             </div>
         </div>

@@ -1,49 +1,37 @@
+@php use App\Models\Product; @endphp
 <form action="" method="post" accept-charset="utf-8"
-      class="form-horizontal form-input-box">
+      class="form-horizontal form-input-box pl-5 pr-5">
     <div class="row">
-    <div class="col-sm-6">
-        <div class="form-group"><span class="icon-case"><i class="fa fa-fa fa-user"></i></span> <input type="text"
-                                                                                                       placeholder="*Name"
-                                                                                                       name="name"
-                                                                                                       value=""
-                                                                                                       class="form-control"
-                                                                                                       id="name"
-                                                                                                       required="">
-            <span class="text-danger"></span></div>
-    </div>
-    <div class="col-sm-6">
-        <div class="form-group"><span class="icon-case"><i class="fas fa-cart-arrow-down"></i></span>
-            <select
-                name="stock" class="form-control" required="">
-                <option value="">Select A Product</option>
-                @foreach($products as $product)
-                    <option value="{{ $product->id }}">{{ $product->name }}</option>
-                @endforeach
+        <div class="col-sm-4 mb-4">
+            <div class="form-group"><input type="text"
+                                           placeholder="Name *"
+                                           name="name"
+                                           value=""
+                                           class="form-control"
+                                           id="name"
+                                           required="">
+                <span class="text-danger"></span></div>
+        </div>
 
-            </select>
-            <span class="text-danger"></span></div>
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-sm-6 ">
-        <div class="form-group"><span class="icon-case"><i class="fa fa-envelope"></i></span> <input type="text"
-                                                                                                     placeholder="*Email"
-                                                                                                     name="email2"
-                                                                                                     value=""
-                                                                                                     class="form-control"
-                                                                                                     id="email2"
-                                                                                                     required=""> <span
-                class="text-danger"></span></div>
-    </div>
-    <div class="col-sm-6 ">
-        <div class="form-group"><span class="icon-case"><i class="fa fa-phone"></i></span> <input
-                placeholder="Phone Number" type="text" name="phone" value="" class="form-control" id="phone"
-                required=""> <span class="text-danger"></span></div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 padding-left-17">
-            <div class="form-group"><span class="icon-case"><i class="fa fa-sticky-note"></i></span>
+        <div class="col-sm-4 ">
+            <div class="form-group">
+                <input type="text"
+                       placeholder="Email *"
+                       name="email2"
+                       value=""
+                       class="form-control"
+                       id="email2"
+                       required=""> <span
+                    class="text-danger"></span></div>
+        </div>
+        <div class="col-sm-4 mb-4">
+            <div class="form-group">
+                <input
+                    placeholder="Phone Number" type="text" name="phone" value="" class="form-control" id="phone"
+                    required=""> <span class="text-danger"></span></div>
+        </div>
+        <div class="col-md-4  col-sm-4 padding-left-17">
+            <div class="form-group">
                 <select
                     name="stock" class="form-control" required="">
                     <option value="">Stock</option>
@@ -61,8 +49,22 @@
                 </select>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="form-group"><span class="icon-case"><i class="fa fa-paint-brush"></i></span> <select
+        <div class="col-sm-4 mb-4" >
+            <div class="form-group">
+
+                <select
+                    name="stock" class="form-control" required="">
+                    <option value="">Select A Product</option>
+                    @foreach(Product::all() as $product)
+                        <option value="{{ $product->id }}">{{ $product->name }}</option>
+                    @endforeach
+
+                </select>
+                <span class="text-danger"></span></div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="form-group">
+                <select
                     name="color" class="form-control" required="">
                     <option value="">Select Color</option>
                     <option value="None">None</option>
@@ -76,32 +78,29 @@
                     <option value="4/4 Colour">4/4 Colour</option>
                 </select> <span class="text-danger"></span></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="form-group"><span class="icon-case"><i class="fa fa-compress "></i></span> <input type="text"
-                                                                                                          placeholder="Size Length"
-                                                                                                          name="size_length"
-                                                                                                          value=""
-                                                                                                          class="form-control"
-                                                                                                          id="size_length"
-                                                                                                          required="">
+        <div class="col-md-4 mb-4 col-sm-4 ">
+            <div class="form-group">
+                <input type="text"
+                       placeholder="Size Length"
+                       name="size_length"
+                       value=""
+                       class="form-control"
+                       id="size_length"
+                       required="">
                 <span class="text-danger"></span></div>
         </div>
-        <div class="col-md-6 padding-left-17">
-            <div class="form-group"><span class="icon-case"><i class="fas fa-grip-lines"></i></span> <input
+        <div class="col-md-4 col-sm-4 padding-left-17">
+            <div class="form-group"><input
                     placeholder="Size Width" type="text" name="size_width" value="" class="form-control" id="size_width"
                     required=""> <span class="text-danger"></span></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="form-group"><span class="icon-case"><i class="fas fa-grip-lines-vertical"></i></span> <input
+        <div class="col-md-4">
+            <div class="form-group"><input
                     placeholder="Size Height" type="text" name="size_height" value="" class="form-control"
                     id="size_height" required=""> <span class="text-danger"></span></div>
         </div>
-        <div class="col-md-6 padding-left-17">
-            <div class="form-group"><span class="icon-case"><i class="fa fa-calculator"></i></span> <select
+        <div class="col-md-4 mb-4 padding-left-17">
+            <div class="form-group"><select
                     name="size_unit" class="form-control" required="">
                     <option value="">Select Size Unit</option>
                     <option value="Inches">Inches</option>
@@ -109,37 +108,36 @@
                     <option value="mm">mm</option>
                 </select> <span class="text-danger"></span></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="form-group"><span class="icon-case"><i class="fa fa-cubes"></i></span> <input placeholder="Qty1"
-                                                                                                      type="text"
-                                                                                                      name="size_qty1"
-                                                                                                      value=""
-                                                                                                      class="form-control"
-                                                                                                      id="size_qty1"
-                                                                                                      required=""> <span
+        <div class="col-md-4">
+            <div class="form-group"><input placeholder="Qty1"
+                                           type="text"
+                                           name="size_qty1"
+                                           value=""
+                                           class="form-control"
+                                           id="size_qty1"
+                                           required=""> <span
                     class="text-danger"></span></div>
         </div>
-        <div class="col-md-6 padding-left-17">
-            <div class="form-group"><span class="icon-case"><i class="fa fa-cubes"></i></span> <input placeholder="QTY2"
-                                                                                                      type="text"
-                                                                                                      name="size_qty2"
-                                                                                                      value=""
-                                                                                                      class="form-control"
-                                                                                                      id="size_qty2"
-                                                                                                      required=""> <span
+        <div class="col-md-4 padding-left-17">
+            <div class="form-group"><input placeholder="QTY2"
+                                           type="text"
+                                           name="size_qty2"
+                                           value=""
+                                           class="form-control"
+                                           id="size_qty2"
+                                           required=""> <span
                     class="text-danger"></span></div>
         </div>
     </div>
     <div class="col-sm-12">
-        <div class="form-group"><span class="icon-case min-height"><i class="fa fa-comments"></i></span> <textarea
+        <div class="form-group"> <textarea
                 placeholder="Comment" type="text" name="comments" class="form-control textarea" id="comments"
                 required=""> </textarea> <span class="text-danger"></span></div>
     </div>
     <div class="form-group">
         <div class="text-center col-sm-12">
-            <button type="submit" class="btn btn-product btn-primary pl-2 pr-2 w-100 pt-2 pb-2 mt-2 mb-2 btn-cart"> Get Quote
+            <button type="submit" class="btn btn-product btn-primary pl-2 pr-2 w-100 pt-2 pb-2 mt-2 mb-2 btn-cart"> Get
+                Quote
             </button>
         </div>
     </div>

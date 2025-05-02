@@ -993,7 +993,7 @@ window.Riode = {};
                     }
 
                     $item.data('top', top);
-                    wrapStickyContent($item, height);
+                    wrapStickyContent($item, 70);
                 } else {
                     if (window.innerWidth < options.minWidth || window.innerWidth >= options.maxWidth) {
                         $item.unwrap('.sticky-content-wrapper');

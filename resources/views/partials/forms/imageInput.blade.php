@@ -17,7 +17,7 @@
             <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change {{ $label }}">
                 <i class="bi bi-pencil-fill fs-7"></i>
                 <!--begin::Inputs-->
-                <input type="file" name="{{ $name }}" accept=".png, .jpg, .jpeg" />
+                <input type="file" name="{{ $name }}" accept=".png, .jpg, .jpeg,.webp" />
                 <input type="hidden" name="{{$name}}_remove" />
                 <!--end::Inputs-->
             </label>
@@ -39,7 +39,7 @@
         <div class="form-text">
                 <span class="text-dark">   {{ $label }}</span>
             <br>
-            Allowed file types: png, jpg, jpeg .
+            Allowed file types: png, jpg, jpeg, webp.
         </div>
         <!--end::Hint-->
     </div>

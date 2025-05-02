@@ -47,7 +47,7 @@
 
 <!-- Main CSS File -->
 <!-- <link rel="stylesheet" type="text/css" href="css/demo1.min.css"> -->
-<link rel="stylesheet" type="text/css" href="{{ asset('css/style.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/demo32.min.css') }}">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 @php

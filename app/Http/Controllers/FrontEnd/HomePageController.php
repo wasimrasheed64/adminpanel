@@ -21,20 +21,20 @@ class HomePageController extends Controller
 {
     public function index()
     {
-//        $mainCategories = MainCategory::all();
         $mainCategories = MainCategory::with('categories')->get();
         $siteSetting = SiteSetting::first();
         $services = Service::all();
         $banners = Banner::all();
         $homePage = HomePage::first();
-//        return $products;
         $featuredProducts = Product::featured()->get();
         $productSlider = MainCategory::where('id',2)->first()->product()->limit(10)->get();
         $testimonials = Testimonial::all();
         $footerLinks = FooterLink::all();
+        $socialLinks = SocialLink::all();
+        $blogPosts = Blog::latest()->limit(3)->get();
         return view('frontend.home',compact('mainCategories',
             'banners','homePage','siteSetting','services','featuredProducts'
-        ,'productSlider','testimonials','footerLinks'));
+        ,'productSlider','testimonials','footerLinks','blogPosts','socialLinks'));
     }
 
     public function check($slug)

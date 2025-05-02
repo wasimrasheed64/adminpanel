@@ -71,6 +71,12 @@
                                            "class" => "col-md-6",
                                            "value" => $siteSetting->working_hours
                                        ])
+                                        @include('partials.forms.formInput',[
+                                         "name" => "footer_description",
+                                         "label" => "Footer Description",
+                                         "class" => "col-md-12",
+                                         "value" => $siteSetting->footer_description
+                                     ])
 
                                          <span class="mt-3"></span>
                                        @include('partials.forms.buttonUpdate')

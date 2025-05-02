@@ -12,12 +12,11 @@
 
     <!-- Main Category -->
 
-  @include('partials.frontend.services',[
-        'services' => $services
-    ])
+
 
     <!-- company intro -->
-    <section class="mt-8 pb-1">
+
+    <section class="mt-10 pb-1">
         <div class="container">
             {!!  $homePage->company_intro !!}
         </div>
@@ -31,38 +30,32 @@
     <!-- Product list -->
     @include('partials.frontend.productlist',[
         'products' => $featuredProducts,
-        'title' => 'Featured Products'
     ])
 
-    @include('partials.frontend.productSlider',[
-         'products' => $productSlider,
-         'title'  => "Box By Style"
-    ])
-
-    <div class="container">
     @include('partials.frontend.promotionBanner')
-    </div>
+
+
+    @include('partials.frontend.productlist',[
+       'products' => $productSlider,
+        'title'  => "Box By Style"
+   ])
+
+    @include('partials.frontend.services',[
+      'services' => $services,
+      'description' => $homePage->description,
+  ])
 
 
 
     <div class="container">
     <!-- End of Product Section -->
-
         @include('partials.frontend.testimonials',[
             'testimonials' => $testimonials
             ])
 
-
     </div>
 
+    @include('partials.frontend.blog')
 
-    <div class="container">
-    <div class="row">
-        <div  class="col-lg-12 col-md-12 p-120 " >
-            <div class="home-page-description " id="companyIntro">
-               {!! $homePage->description !!}
-           </div>
-        </div>
-    </div>
-    </div>
+
 @endsection
