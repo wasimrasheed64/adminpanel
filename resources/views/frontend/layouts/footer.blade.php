@@ -14,7 +14,7 @@
 
                 </div>
                 <div class="col-lg-3 col-contact col-md-6">
-                    <div class="widget widget-contact">
+                    <div class="widget widget-contact ml-5">
                         <h4 class="widget-title">Get In Touch</h4>
                         <ul class="widget-body">
                             <li>
@@ -38,34 +38,19 @@
                 </div>
                 <div class="col-lg-3 col-account col-md-6">
                     <div class="widget">
-                        <h4 class="widget-title">My Account</h4>
+                        <h4 class="widget-title">Our Links</h4>
                         <ul class="widget-body">
                             <li>
+                                <a href="{{ route('contact.form')  }}">Home</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('custom.quote') }}">Request a Quote</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('blog') }}">Blog</a>
+                            </li>
+                            <li>
                                 <a href="{{ route('contact.form')  }}">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#">Our Services</a>
-                            </li>
-                            <li>
-                                <a href="#">Payment Methods</a>
-                            </li>
-                            <li>
-                                <a href="#">Service Guide</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#">Service Support</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy</a>
-                            </li>
-                            <li>
-                                <a href="#">About Riode</a>
-                            </li>
-                            <li>
-                                <a href="#">Our Guarantees</a>
                             </li>
                         </ul>
                     </div>

@@ -10,12 +10,14 @@
 
 
 
-    <div class="page-header align-items-start breadcrumb-resize-padding" style="background-image: url('{{ $image ?? '' }}');
+    <div class="page-header  align-items-start breadcrumb-resize-padding bg-light" style="
         color:white;padding-left:50px;">
+        <div class="container">
         <h2 class="page-title z-index-1">{{ $title ?? "" }}</h2>
         <ul class="breadcrumb z-index-1">
             <li class="z-index-1"><a  class="active" href="{{ route('home') }}"><i class="d-icon-home"></i></a></li>
             <li class="delimiter">/</li>
             <li>{{ $title ?? '' }}</li>
         </ul>
+        </div>
     </div>

@@ -96,14 +96,15 @@ class HomePageController extends Controller
         $siteSetting = SiteSetting::first();
         $mainCategories = MainCategory::with('categories')->get();
         $products = Product::all();
-        return view('frontend.requestQoute',compact('siteSetting','mainCategories','products'));
+        $socialLinks = SocialLink::all();
+        return view('frontend.requestQoute',compact('siteSetting','mainCategories','products','socialLinks'));
     }
 
     public function showContact()
     {
         $siteSetting = SiteSetting::first();
         $mainCategories = MainCategory::with('categories')->get();
-
-        return view('frontend.contact',compact('siteSetting','mainCategories'));
+        $socialLinks = SocialLink::all();
+        return view('frontend.contact',compact('siteSetting','mainCategories','socialLinks'));
     }
 }

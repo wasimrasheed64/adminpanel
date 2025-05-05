@@ -5,22 +5,16 @@
 @section('description', 'Contact us')
 
 @section('content')
-    <div class="page-header align-items-start breadcrumb-resize-padding bg-dark" style="color:white;padding-left:50px;">
+    <div class="page-header align-items-start breadcrumb-resize-padding bg-light" style="color:white;padding-left:50px;">
+        <div class="container">
         <h2 class="page-title z-index-1">Contact Us</h2>
         <ul class="breadcrumb z-index-1">
             <li class="z-index-1"><a  class="active" href="{{ route('home') }}"><i class="d-icon-home"></i></a></li>
             <li class="delimiter">/</li>
             <li>Contact Us</li>
         </ul>
-    </div>
-    <nav class="breadcrumb-nav">
-        <div class="container">
-            <ul class="breadcrumb">
-                <li><a href="{{ route('home') }}"><i class="d-icon-home"></i></a></li>
-                <li> Contact Us </li>
-            </ul>
         </div>
-    </nav>
+    </div>
     <div class="page-content pb-10 mb-10">
         <div class="container">
             <div class="row mt-3">

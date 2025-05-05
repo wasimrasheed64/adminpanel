@@ -1,5 +1,5 @@
 <section class="product-wrapper container  pt-5 mb-8">
-    <h4 class="title title-sm mt-8 title-line title-underline"><span>{{ $title ?? " " }}</span></h4>
+    <h4 class="title title-sm  title-line title-underline"><span>{{ $title ?? " " }}</span></h4>
     <div class="owl-carousel owl-theme row cols-lg-4 cols-md-3 cols-2" data-owl-options="{
                                 'nav': false,
                                 'dots': false,

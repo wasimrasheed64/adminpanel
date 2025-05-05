@@ -10,19 +10,34 @@
 @section('description', $product->seo_description)
 
 @section('content')
+    <div class="page-header align-items-start breadcrumb-resize-padding bg-light mb-10" style="color:white;padding-left:50px;">
+        <div class="container">
+            <h2 class="page-title z-index-1">{{ $product->name }}</h2>
+            <ul class="breadcrumb z-index-1">
 
-    <div class="container ">
-        <div class="row gutter-lg">
-            <div class="product-navigation pl-3">
-                <ul class="breadcrumb breadcrumb-lg">
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li>
-                        <a href="{{ route('dynamic.page',$product->category->slug) }}">{{ ucwords($product->category->name) }}</a>
-                    </li>
-                    <li><a class="active"
-                           href="{{ route('dynamic.page',$product->slug) }}">{{ ucwords($product->name) }}</a></li>
-                </ul>
-            </div>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li class="delimiter">/</li>
+                                    <li>
+                                        <a href="{{ route('dynamic.page',$product->category->slug) }}">{{ ucwords($product->category->name) }}</a>
+                                    </li>
+                <li class="delimiter">/</li>
+                                    <li><a class="active"
+                                           href="{{ route('dynamic.page',$product->slug) }}">{{ ucwords($product->name) }}</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+{{--        <div class="row gutter-lg">--}}
+{{--            <div class="product-navigation  pl-3" style="margin-top: 120px">--}}
+{{--                <ul class="breadcrumb breadcrumb-lg">--}}
+{{--                    <li><a href="{{ route('home') }}">Home</a></li>--}}
+{{--                    <li>--}}
+{{--                        <a href="{{ route('dynamic.page',$product->category->slug) }}">{{ ucwords($product->category->name) }}</a>--}}
+{{--                    </li>--}}
+{{--                    <li><a class="active"--}}
+{{--                           href="{{ route('dynamic.page',$product->slug) }}">{{ ucwords($product->name) }}</a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
             <div class="col-lg-12">
                 <div class="product product-single row mb-4">
                     <div class="col-lg-5  col-sm-8 offset-sm-2 col-xs-12">
@@ -95,7 +110,7 @@
                                 </div>
                             </div>
                             <div class="row p-2">
-                                <div class="col-lg-9 ">
+                                <div class="col-lg-12 ">
                                 <h2 class="title title-sm mt-2 title-line title-right-line ">Get Free Quote</h2>
                                 <div class="form-group quoteForm">
                                     <div class="row">
@@ -202,37 +217,6 @@
 
                                 </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="service-list service-list-lg appear-animate">
-                                        <div class="row">
-                                            <div class="col-lg-12 mb-1 product-contact pb-2">
-                                                {{--                                                    <span class="font-weight-bolder pl-2 pt-5 mb-1"> Ask Our Experts</span>--}}
-                                                <button class="w-100 btn mt-1 button-border-primary mb-1 btn-primary btn-product btn-cart">
-                                                    <i class="fa fa-envelope"></i>Mail Us
-                                                </button>
-                                            </div>
-
-                                            @foreach($services as $service)
-                                                <div class="col-lg-12 mb-1">
-                                                <div class="icon-box icon-box-side  border-orange icon-box-side-1 product-service  flex-column appear-animate">
-                                                    <i class="icon-box-icon text-size-service {{ $service->description }} mr-0 wcb-service"></i>
-                                                    <div class="icon-box-content  text-center">
-                                                        <h4 class="product-service-text  text-normal">{{ $service->heading }}</h4>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            @endforeach
-
-                                                <div class="col-lg-12 mb-1 product-contact pb-2">
-{{--                                                    <span class="font-weight-bolder pl-2 pt-5 mb-1"> Ask Our Experts</span>--}}
-
-                                                    <button class="w-100 btn btn-primary btn-product mt-2  button-border-primary btn-cart">
-                                                        <i class="fa fa-phone"></i> Call Us
-                                                    </button>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
 
@@ -240,7 +224,8 @@
                     </div>
                 </div>
 
-                <div class="tab tab-nav-simple product-tabs mt-2 mb-4">
+                @include('partials.frontend.testimonials')
+                <div class="tab tab-nav-simple product-tabs mt-5">
                     <ul class="nav nav-tabs justify-content-start" role="tablist">
                         <li class="nav-item custom-nav-tab">
                             <a class="nav-link  active" href="#product-tab-specification">Specification</a>
@@ -279,11 +264,12 @@
     </div>
 
 
+
     @include('partials.frontend.productSlider',[
       'products' => $productSlider,
        'title'  => "Related Products"
     ])
-    @include('partials.frontend.testimonials')
+
 
 @endsection
 
