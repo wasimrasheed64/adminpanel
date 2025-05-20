@@ -61,7 +61,7 @@
                               "label" => "Seo Url",
                               "class" => "col-md-6",
                           ])
-                          
+
                              @include('partials.forms.formInput',[
                                    "name" => "menu_no",
                                    "label" => "Menu No",
@@ -97,6 +97,10 @@
                                "name" => 'is_menu',
                                 "label" => 'Is Menu'
                            ])
+                            @include('partials.forms.checkbox',[
+                             "name" => 'is_footer',
+                              "label" => 'Show in Footer'
+                         ])
 
                             @include('partials.forms.buttonSubmit')
                         </div>

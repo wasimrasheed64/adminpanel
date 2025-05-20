@@ -24,6 +24,7 @@ class Category extends Model
         'is_active',
         'menu_no',
         'is_menu',
+        'is_footer',
     ];
 
     public function getBannerimageAttribute($value){

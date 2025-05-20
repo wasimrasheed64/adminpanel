@@ -100,11 +100,17 @@
                                          'value' => $product->in_menu
                                     ])
 
+                                    @include('partials.forms.checkbox',[
+                           "name" => 'is_footer',
+                            "label" => 'Show in Footer',
+                             "value" => $product->is_footer
+                       ])
+
                                     @include('partials.forms.buttonSubmit')
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-2 col-xs-12">
-                             
+
                                 @include('partials.forms.imageInput',[
                                         "name" => 'imageOne',
                                         "label" => "Product Main Image",

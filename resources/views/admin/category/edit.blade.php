@@ -67,7 +67,7 @@
                                "class" => "col-md-6",
                                "value" => $category->slug
                            ])
-                           
+
                            @include('partials.forms.formInput',[
                                    "name" => "menu_no",
                                    "label" => "Menu No",
@@ -110,6 +110,11 @@
                                  "label" => 'Is Menu',
                                  "value" => $category->is_menu
                             ])
+                            @include('partials.forms.checkbox',[
+                            "name" => 'is_footer',
+                             "label" => 'Show in Footer',
+                              "value" => $category->is_footer
+                        ])
 
                             @include('partials.forms.buttonUpdate')
                         </div>

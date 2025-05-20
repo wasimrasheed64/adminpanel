@@ -32,6 +32,7 @@ class ProductController extends Controller
             $request['is_active'] = $request->has('is_active');
             $request['is_featured'] = $request->has('is_featured');
             $request['in_menu'] = $request->has('is_menu');
+            $request['is_footer'] = $request->has('is_footer');
                 if (request('imageOne')) {
                     $request['image_1'] = request('imageOne')->store($this->model::UPLOAD_DIRECTORY);
                 }
@@ -67,6 +68,7 @@ class ProductController extends Controller
                 $request['is_active'] = $request->has('is_active');
                 $request['is_featured'] = $request->has('is_featured');
                 $request['in_menu'] = $request->has('is_menu');
+                $request['is_footer'] = $request->has('is_footer');
                 // if (request('menuImage')) {
                 //     $request['menu_image'] = request('menuImage')->store($this->model::UPLOAD_DIRECTORY);
                 // }

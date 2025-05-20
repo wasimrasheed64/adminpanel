@@ -4,6 +4,7 @@
 "use strict";
 
 var $ = jQuery.noConflict();
+var stickyCheck = 1;
 
 /* jQuery easing */
 $.extend($.easing, {
@@ -993,7 +994,13 @@ window.Riode = {};
                     }
 
                     $item.data('top', top);
-                    wrapStickyContent($item, 70);
+                    if(stickyCheck){
+                        wrapStickyContent($item, 100);
+                    }else{
+                        // wrapStickyContent($item, 60);
+                    }
+                    stickyCheck--;
+
                 } else {
                     if (window.innerWidth < options.minWidth || window.innerWidth >= options.maxWidth) {
                         $item.unwrap('.sticky-content-wrapper');

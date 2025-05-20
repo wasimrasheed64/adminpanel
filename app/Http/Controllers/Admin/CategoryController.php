@@ -29,6 +29,7 @@ class CategoryController extends Controller
         try {
             $request['is_active'] = $request->has('is_active');
             $request['is_menu'] = $request->has('is_menu');
+            $request['is_footer'] = $request->has('is_footer');
                if (request('image')) {
                 $request['banner_image'] = request('image')->store($this->model::UPLOAD_DIRECTORY);
             }
@@ -52,6 +53,7 @@ class CategoryController extends Controller
         try {
             $request['is_active'] = $request->has('is_active');
             $request['is_menu'] = $request->has('is_menu');
+            $request['is_footer'] = $request->has('is_footer');
             if (request('image')) {
                 $request['banner_image'] = request('image')->store($this->model::UPLOAD_DIRECTORY);
             }

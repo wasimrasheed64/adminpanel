@@ -27,6 +27,7 @@ class Product extends Model
         'is_featured',
         'is_active',
         'in_menu',
+        'is_footer',
         'menu_no',
     ];
 

@@ -1,48 +1,52 @@
 <header class="header">
-    <div class="header-top">
-        <div class="container">
-            <div class="header-left">
-                <div class="welcome-msg">
-                    <a href="{{ route('contact.form') }}" class="contact"><i class="d-icon-info"></i>
-                        Contact Us
-                    </a>
-                    <a href="#" class="help"><i class="d-icon-map"></i>
-                        {{ $siteSetting->address }}</a>
-                </div>
-            </div>
-            <div class="header-right">
-                <a class="call" href="tel:{{$siteSetting->phone}}">
-                    <i class="d-icon-phone"></i>
-                    <span> Call us: </span>{{ $siteSetting->phone }}
-                </a>
-                <div class="dropdown wishlist wishlist-dropdown off-canvas">
-                </div>
-                <a href="ajax/login.html" class="login-link"><i class="d-icon-user"></i>Login</a>
-
-            </div>
-        </div>
-    </div>
     <!-- End HeaderTop -->
     <div class="header-middle sticky-header fix-top sticky-content">
         <div class="container">
             <div class="header-left">
-                <a href="#" class="mobile-menu-toggle mr-0">
+                <a href="#" class="mobile-menu-toggle">
                     <i class="d-icon-bars2"></i>
                 </a>
                 <a href="{{ route('home') }}" class="logo d-none d-lg-block">
                     <img src="{{ $siteSetting->logo }}" alt="logo" width="154" height="43"/>
                 </a>
                 <!-- End Logo -->
-            </div>
-            <div class="header-center d-flex justify-content-center">
-                <a href="{{ route('home') }}" class="logo d-block d-lg-none">
-                    <img src="{{ $siteSetting->logo }}" alt="logo" width="154" height="43"/>
-                </a>
-                <!-- End Logo -->
+
+                <!-- End Header Search -->
             </div>
             <div class="header-right">
-                <nav class="main-nav mr-4">
-                    <ul class="menu menu-active-underline">
+                <a href="tel:#" class="icon-box icon-box-side">
+                    <div class="icon-box-icon mr-0 mr-lg-2">
+                        <i class="d-icon-phone"></i>
+                    </div>
+                    <div class="icon-box-content d-lg-show">
+                        <h4 class="icon-box-title">Call Us Now:</h4>
+                        <p>{{ $siteSetting->phone }}</p>
+                    </div>
+                </a>
+                <span class="divider"></span>
+                <span class="divider"></span>
+                <div class="header-search hs-toggle mobile-search">
+                    <a href="#" class="search-toggle">
+                        <i class="d-icon-search"></i>
+                    </a>
+                    <form action="#" class="input-wrapper">
+                        <input type="text" class="form-control" name="search" autocomplete="off"
+                               placeholder="Search your keyword..." required />
+                        <button class="btn btn-search" type="submit" title="submit-button">
+                            <i class="d-icon-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <!-- End of Header Search -->
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom d-lg-show sticky-header fix-top sticky-content padding-y-0">
+        <div class="container">
+            <div class="header-left">
+                <nav class="main-nav ml-0">
+                    <ul class="menu">
                         <li class="active">
                             <a href="{{ route('home') }}">Home</a>
                         </li>
@@ -92,20 +96,9 @@
                         </li>
                     </ul>
                 </nav>
-
-                <span class="divider mr-4"></span>
-                <div class="header-search hs-toggle d-block">
-                    <a href="#" class="search-toggle d-flex align-items-center">
-                        <i class="d-icon-search"></i>
-                    </a>
-                    <form action="#" class="input-wrapper">
-                        <input type="text" class="form-control" name="search" autocomplete="off"
-                               placeholder="Search your keyword..." required/>
-                        <button class="btn btn-search" type="submit">
-                            <i class="d-icon-search"></i>
-                        </button>
-                    </form>
-                </div>
+            </div>
+            <div class="header-right">
+                <a href="https://d-themes.com/buynow/riode.html" class="ml-6">Buy Riode!</a>
             </div>
         </div>
     </div>

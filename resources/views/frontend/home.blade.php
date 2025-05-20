@@ -10,12 +10,12 @@
     'banners' => $banners
     ])
 
+    @include('partials.frontend.services-block')
     <!-- Main Category -->
 
 
 
     <!-- company intro -->
-
     <section class="mt-10 pb-1">
         <div class="container">
             {!!  $homePage->company_intro !!}
@@ -40,11 +40,6 @@
         'title'  => "Box By Style"
    ])
 
-    @include('partials.frontend.services',[
-      'services' => $services,
-      'description' => $homePage->description,
-  ])
-
 
 
     <div class="container">
@@ -54,6 +49,13 @@
             ])
 
     </div>
+    @include('partials.frontend.intro',[
+    'description' => $homePage->description
+])
+    @include('partials.frontend.services',[
+     'services' => $services,
+     'description' => $homePage->description,
+ ])
 
     @include('partials.frontend.blog')
 

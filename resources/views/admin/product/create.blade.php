@@ -46,7 +46,7 @@
                                    "label" => "Seo Url",
                                    "class" => "col-md-6",
                                ])
-                               
+
                                 @include('partials.forms.formInput',[
                                    "name" => "menu_no",
                                    "label" => "Menu No",
@@ -86,12 +86,17 @@
                                     "name" => 'is_menu',
                                      "label" => 'Is Menu'
                                 ])
+                                @include('partials.forms.checkbox',[
+                           "name" => 'is_footer',
+                            "label" => 'Show in Footer',
+
+                       ])
 
                                 @include('partials.forms.buttonSubmit')
                             </div>
                         </div>
                         <div class="col-lg-2 col-sm-2 col-xs-12">
-                        
+
                             @include('partials.forms.imageInput',[
                                       "name" => 'imageOne',
                                       "label" => "Product Featured Image",
