@@ -18064,3 +18064,24 @@ accordion {
         margin-top: 2rem
     }
 }
+.line-height-3{
+    line-height: .3;
+}
+.border-radius-20{
+    border-radius: 20px;
+}
+.product.cart-full {
+    border: 1px solid #eee;
+    border-radius: 0.3rem;
+}
+.product.cart-full .btn-cart {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 0.5rem;
+    height: 4.6rem;
+    line-height: 3.1;
+    font-size: 1.4rem;
+    border-color: #666;
+}

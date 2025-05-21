@@ -6,7 +6,7 @@
     <div class="row">
         @foreach($products as $product)
             <div class="mb-1 col-lg-3 col-md-4 col-sm-5 ">
-                <div class="product product-slideup-content product-image-gap  text-center product-variable mb-4 pb-2 ">
+                <div class="product text-center cart-full">
                     <figure class="product-media">
                         <a href="{{ route('dynamic.page',$product->slug) }}" >
                             <img src="{{ $product->image_1 }}" alt="{{ $product->name }}" width="280" height="315">
@@ -27,7 +27,7 @@
 
                         <div class="product-action">
 
-                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart btn-qoute" title="Select Options"><span>Request a Qoute</span></a>
+                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart" title="Select Options"><span>Request a Quote</span></a>
 
                         </div>
                     </div>

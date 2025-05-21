@@ -10,34 +10,18 @@
 @section('description', $product->seo_description)
 
 @section('content')
-    <div class="page-header align-items-start breadcrumb-resize-padding bg-light mb-10" style="color:white;padding-left:50px;">
+    <nav class="breadcrumb-nav">
         <div class="container">
-            <h2 class="page-title z-index-1">{{ $product->name }}</h2>
-            <ul class="breadcrumb z-index-1">
-
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li class="delimiter">/</li>
-                                    <li>
-                                        <a href="{{ route('dynamic.page',$product->category->slug) }}">{{ ucwords($product->category->name) }}</a>
-                                    </li>
-                <li class="delimiter">/</li>
-                                    <li><a class="active"
-                                           href="{{ route('dynamic.page',$product->slug) }}">{{ ucwords($product->name) }}</a></li>
+            <ul class="breadcrumb">
+                <li><a href="{{ route('home') }}"><i class="d-icon-home"></i></a></li>
+                <li>
+                    <a href="{{ route('dynamic.page',$product->category->slug) }}">{{ ucwords($product->category->name) }}</a>
+                </li>
+                <li>{{ ucwords($product->name) }}</li>
             </ul>
         </div>
-    </div>
+    </nav>
     <div class="container">
-{{--        <div class="row gutter-lg">--}}
-{{--            <div class="product-navigation  pl-3" style="margin-top: 120px">--}}
-{{--                <ul class="breadcrumb breadcrumb-lg">--}}
-{{--                    <li><a href="{{ route('home') }}">Home</a></li>--}}
-{{--                    <li>--}}
-{{--                        <a href="{{ route('dynamic.page',$product->category->slug) }}">{{ ucwords($product->category->name) }}</a>--}}
-{{--                    </li>--}}
-{{--                    <li><a class="active"--}}
-{{--                           href="{{ route('dynamic.page',$product->slug) }}">{{ ucwords($product->name) }}</a></li>--}}
-{{--                </ul>--}}
-{{--            </div>--}}
             <div class="col-lg-12">
                 <div class="product product-single row mb-4">
                     <div class="col-lg-5  col-sm-8 offset-sm-2 col-xs-12">
@@ -224,7 +208,7 @@
                     </div>
                 </div>
 
-                @include('partials.frontend.testimonials')
+                @include('partials.frontend.services-block')
                 <div class="tab tab-nav-simple product-tabs mt-5">
                     <ul class="nav nav-tabs justify-content-start" role="tablist">
                         <li class="nav-item custom-nav-tab">

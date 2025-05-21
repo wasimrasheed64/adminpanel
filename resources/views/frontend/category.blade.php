@@ -52,8 +52,7 @@
 
                     @foreach($category->products as $product)
                         <div class="mb-1 col-lg-4 col-md-4 col-sm-5 ">
-                            <div
-                                class="product product-slideup-content product-image-gap  text-center product-variable mb-4 pb-2 ">
+                            <div class="product text-center cart-full">
                                 <figure class="product-media">
                                     <a href="{{ route('dynamic.page',$product->slug) }}">
                                         <img src="{{ $product->image_1 }}" alt="{{ $product->name }}" width="280"
@@ -72,9 +71,7 @@
                                 <div class="product-hide-details" style="transform: translateY(0px);">
                                     <div class="product-action">
 
-                                        <a href="{{ route('dynamic.page',[$product->slug])}} "
-                                           class="btn-product btn-cart"
-                                           title="Select Options"><span>Request a Quote</span></a>
+                                        <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart" title="Select Options"><span>Request a Quote</span></a>
 
                                     </div>
                                 </div>
@@ -82,30 +79,18 @@
                         </div>
                     @endforeach
                 </div>
-                <hr>
-                <div class="tab  tab-nav-boxed
-                tab-outline2">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item text-dark btn-qoute border-radius">
-                            <a class="nav-link active text-white" href="#tab6-2">Get Quick Qoute</a>
-                        </li>
-                        <li class="nav-item text-dark btn-qoute border-radius">
-                            <a class="nav-link text-white " href="#tab6-3">Description</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content p-5">
-                        <div class="tab-pane active text-dark bg-white border-qoute-form" id="tab6-2">
-                            @include('partials.frontend.quickQoute')
-                        </div>
-                        <div class="tab-pane text-dark bg-white border-qoute-form" id="tab6-3">
-                            <div class="row p-5">
-                                <div class="col-sm-1">
+                <h4 class="title title-sm title-line title-underline mt-5"><span>Request a Quote</span></h4>
+                <div class="tab-pane active text-dark bg-white border-qoute-form" id="tab6-2">
+                    @include('partials.frontend.quickQoute')
+                </div>
+                <h4 class="title title-sm title-line title-underline mt-5"><span>{{ $product->name }}</span></h4>
+                <div class="tab-pane text-dark bg-white border-qoute-form" id="tab6-3">
+                    <div class="row p-5">
+                        <div class="col-sm-1">
 
-                                </div>
-                                <div class="col-lg-10" style="height:800px; overflow: scroll">
-                                    {!! $category->description !!}
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-lg-10" style="height:800px; overflow: scroll">
+                            {!! $category->description !!}
                         </div>
                     </div>
                 </div>

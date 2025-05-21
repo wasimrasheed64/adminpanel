@@ -2,7 +2,7 @@
     <div class="container">
         <div class="service-list service-list-lg appear-animate">
             <div class="container">
-                <h1 style="text-align: center;"><span style="color: #000000">What we offer</span></h1>
+{{--                <h1 style="text-align: center;"><span style="color: #000000">What we offer</span></h1>--}}
             </div>
             <div class="owl-carousel owl-theme show-shadow" data-owl-options="{
                                 'margin':20,

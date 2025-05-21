@@ -22,7 +22,7 @@
                             }">
         @foreach($products as $product)
 
-                <div class="product product-slideup-content product-image-gap  text-center product-variable mb-4 pb-2 ">
+            <div class="product text-center cart-full">
                     <figure class="product-media">
                         <a href="{{ route('dynamic.page',$product->slug) }}" >
                             <img src="{{ $product->image_1 }}" alt="{{ $product->name }}" width="280" height="315">
