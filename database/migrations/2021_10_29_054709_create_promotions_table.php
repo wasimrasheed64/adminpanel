@@ -19,7 +19,7 @@ class CreatePromotionsTable extends Migration
             $table->string('link');
             $table->integer('page');
             $table->string('class');
-            $table->tinyInteger('home_page_height')->default(1);
+            $table->tinyInteger('home_page_height')->default(1)->nullable();
             $table->timestamps();
         });
     }

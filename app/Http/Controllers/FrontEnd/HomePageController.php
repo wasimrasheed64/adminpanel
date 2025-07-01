@@ -11,6 +11,7 @@ use App\Models\FooterLink;
 use App\Models\HomePage;
 use App\Models\MainCategory;
 use App\Models\Product;
+use App\Models\Promotion;
 use App\Models\Service;
 use App\Models\SiteSetting;
 use App\Models\SocialLink;
@@ -58,8 +59,9 @@ class HomePageController extends Controller
         {
             $services = Service::all();
             $productSlider = Category::where('id',$product->category_id)->first()->products()->limit(10)->get();
+            $promotion = Promotion::where('page','3')->first();
             return view('frontend.product',compact('mainCategories','siteSetting',
-                'footerLinks','socialLinks','product','productSlider','services'));
+                'footerLinks','socialLinks','product','productSlider','services', 'promotion'));
         }
         if($slug == 'blog')
         {

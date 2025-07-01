@@ -20,18 +20,18 @@
                          height="800" style="background-color: #f6f6f6;" />
                 </figure>
                 <div class="container">
-                    <div class="banner-content {{$banner->position}}">
-                        <h2 class="banner-title mb-2 font-weight-bold slide-animate text-dark"
-                            data-animation-options="{'name': 'fadeInRightShorter', 'duration': '1s', 'delay': '1s'}">
-                            {{$banner->heading}}</h2>
-                        <p class="slide-animate"
-                           data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1.2s', 'delay': '1s'}">
-                            {!!$banner->description!!}
-                        </p>
-                        <a href="{{ route('home') }}" class="btn btn-dark btn-ellipse ls-m slide-animate"
-                           data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1s', 'delay': '1.8s'}">
-                            {{$banner->button_text}}</a>
-                    </div>
+{{--                    <div class="banner-content {{$banner->position}}">--}}
+{{--                        <h2 class="banner-title mb-2 font-weight-bold slide-animate text-dark"--}}
+{{--                            data-animation-options="{'name': 'fadeInRightShorter', 'duration': '1s', 'delay': '1s'}">--}}
+{{--                            {{$banner->heading}}</h2>--}}
+{{--                        <p class="slide-animate"--}}
+{{--                           data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1.2s', 'delay': '1s'}">--}}
+{{--                            {!!$banner->description!!}--}}
+{{--                        </p>--}}
+{{--                        <a href="{{ route('home') }}" class="btn btn-dark btn-ellipse ls-m slide-animate"--}}
+{{--                           data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1s', 'delay': '1.8s'}">--}}
+{{--                            {{$banner->button_text}}</a>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         @endforeach

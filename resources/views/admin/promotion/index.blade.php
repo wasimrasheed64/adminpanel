@@ -163,9 +163,9 @@
                                                                 </label>
                                                                 <select name="page" class="form-control form-control-solid">
                                                                     <option value="1">Home page</option>
-                                                                    <option
-                                                                        {{ $promotion->page == 2 ? 'selected' : ""   }}
-                                                                        value="2">Category Page</option>
+{{--                                                                    <option--}}
+{{--                                                                        {{ $promotion->page == 2 ? 'selected' : ""   }}--}}
+{{--                                                                        value="2">Category Page</option>--}}
                                                                     <option
                                                                         {{ $promotion->page == 3 ? 'selected' : ""   }}
                                                                         value="3">Product Page</option>

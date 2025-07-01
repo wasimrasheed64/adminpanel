@@ -66,7 +66,7 @@
                     </a>
                     <div class="post-calendar">
                         <span class="post-day">{{ \Carbon\Carbon::parse($post->created_at)->day }}</span>
-                        <span class="post-day">{{ \Carbon\Carbon::parse($post->created_at)->month }}</span>
+                        <span class="post-day">{{ \Carbon\Carbon::parse($post->created_at)->format('M') }}</span>
                     </div>
                 </figure>
                 <div class="post-details">

@@ -10,7 +10,7 @@
 @section('description', $product->seo_description)
 
 @section('content')
-    <div class="page-header align-items-start breadcrumb-resize-padding bg-light mb-10" style="color:white;padding-left:50px;">
+    <div class="page-header align-items-start breadcrumb-resize-padding bg-light mb-10" style="background-image:url({{$promotion ? $promotion->image : ''}});color:white;padding-left:50px;">
         <div class="container">
             <h2 class="page-title z-index-1">{{ $product->name }}</h2>
             <ul class="breadcrumb z-index-1">
@@ -719,7 +719,7 @@
                                     <div class="tab-content">
                                         <div class="tab-pane active in" id="product-tab-specification">
                                             <div class="row mt-5">
-                                                @include('partials.frontend.specificationTable')
+                                                @include('partials.frontend.specificationTable',['productName' => $product->name])
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="product-tab-description">
