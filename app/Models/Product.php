@@ -35,22 +35,22 @@ class Product extends Model
         return $this->belongsTo(Category::class);
     }
 
-    public function getMenuImageAttribute($value){
-        return asset('storage/'.$value);
-    }
-
-    public function getImage1Attribute($value){
-        return asset('storage/'.$value);
-    }
-    public function getImage2Attribute($value){
-        return asset('storage/'.$value);
-    }
-    public function getImage3Attribute($value){
-        return asset('storage/'.$value);
-    }
-    public function getImage4Attribute($value){
-        return asset('storage/'.$value);
-    }
+//    public function getMenuImageAttribute($value){
+//        return asset('storage/'.$value);
+//    }
+//
+//    public function getImage1Attribute($value){
+//        return asset('storage/'.$value);
+//    }
+//    public function getImage2Attribute($value){
+//        return asset('storage/'.$value);
+//    }
+//    public function getImage3Attribute($value){
+//        return asset('storage/'.$value);
+//    }
+//    public function getImage4Attribute($value){
+//        return asset('storage/'.$value);
+//    }
     public function scopeFeatured($query)
     {
         return $query->where('is_featured',1)->where('is_active',1);

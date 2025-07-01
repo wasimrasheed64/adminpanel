@@ -1,7 +1,14 @@
-<section class="product-wrapper container mt-6 appear-animate fadeIn appear-animation-visible"
+<section class="product-wrapper container pb-2 appear-animate fadeIn appear-animation-visible"
          style="animation-duration: 1.2s;">
     @if(isset($title))
-        <h4 class="title title-sm mt-8 title-line title-underline"><span>{{ $title ?? " " }}</span></h4>
+        <div class="title-wrapper">
+            <div class="container">
+                <h2 class="title">{{ $title }}</h2>
+                @if(isset($description))
+                <span class="title-info">{{$description}}</span>
+                @endif
+            </div>
+        </div>
     @endif
     <div class="row">
         @foreach($products as $product)
@@ -15,7 +22,7 @@
                     <div class="product-details" style="transform: translateY(0px);">
                         <div class="product-cat">
                             @if(isset($product->category->slug))
-                            <a href="{{ route('dynamic.page',[$product->category->slug]) }}" >{{ $product->category->name }}</a>
+                                <a href="{{ route('dynamic.page',[$product->category->slug]) }}" >{{ $product->category->name }}</a>
                             @endif
                         </div>
                         <h3 class="product-name">
@@ -27,7 +34,7 @@
 
                         <div class="product-action">
 
-                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart btn-qoute" title="Select Options"><span>Request a Qoute</span></a>
+                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product " title="Quick View"><span>Request a Qoute</span></a>
 
                         </div>
                     </div>

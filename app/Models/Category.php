@@ -46,4 +46,9 @@ class Category extends Model
     {
         return $query->where('in_menu',1)->where('is_active',1);
     }
+
+    public function mainCategory()
+    {
+        return $this->belongsTo(MainCategory::class);
+    }
 }

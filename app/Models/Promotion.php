@@ -16,6 +16,7 @@ class Promotion extends Model
         'link',
         'class',
         'page',
+        'home_page_height',
     ];
 
     public function getImageAttribute($value){

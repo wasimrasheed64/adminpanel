@@ -4,7 +4,7 @@
 @section('description', 'custom quote')
 
 @section('content')
-    <div class="page-header  align-items-start breadcrumb-resize-padding bg-light text-dark" style="color:white;padding-left:50px;">
+    <div class="page-header  align-items-start breadcrumb-resize-padding text-dark" style="background-color: #D7E9E9;color:white;padding-left:50px;">
         <div class="container">
         <h2 class="page-title  text-dark z-index-1">Custom Quote</h2>
         <ul class="breadcrumb  text-dark z-index-1">
@@ -19,11 +19,11 @@
             <div class="row mt-3">
                 <div class="row form-primary-border mt-3">
                     <div class="col-lg-12 p-0">
-                        <h4 class="title title-sm title-line title-underline"><span>Custom Quote Form</span></h4>
+                        <h2 class="title ls-m mb-5 title-sm justify-content-center"><span>Custom Quote Form</span></h2>
                         @include('partials.frontend.quickQoute')
                     </div>
                     <div class="col-lg-12">
-                        <h4 class="title title-sm title-line title-underline mt-5"><span>FAQs</span></h4>
+                        <h2 class="title ls-m mb-5 title-sm justify-content-center mt-5"><span>FAQs</span></h2>
                         <div class="accordion accordion-border accordion-boxed accordion-plus">
                             @foreach(\App\Models\Faq::get() as $faq)
                                 <div class="card">

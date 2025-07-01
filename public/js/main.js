@@ -888,7 +888,6 @@ window.Riode = {};
         // define wrap function
         var stickyHeaderWrap = function () {
             height = $stickyHeader[0].offsetHeight;
-            console.log('height',height);
             top = $stickyHeader.offset().top + height;
 
             // if sticky header has category dropdown, increase top
@@ -993,7 +992,7 @@ window.Riode = {};
                     }
 
                     $item.data('top', top);
-                    wrapStickyContent($item, 70);
+                    wrapStickyContent($item, height);
                 } else {
                     if (window.innerWidth < options.minWidth || window.innerWidth >= options.maxWidth) {
                         $item.unwrap('.sticky-content-wrapper');
@@ -1417,18 +1416,18 @@ window.Riode = {};
      * @function initPurchasedMinipopup
      */
     Riode.initPurchasedMinipopup = function () {
-        setInterval(function () {
-            Riode.Minipopup.open({
-                message: 'Someone Purchased',
-                productClass: 'product-cart',
-                name: 'Daisy Shoes Sonia by Sonia-Blue',
-                nameLink: 'product.html',
-                imageSrc: 'images/cart/product-1.jpg',
-                isPurchased: true
-            }, function ($box) {
-                Riode.ratingTooltip($box[0]);
-            });
-        }, 60000);
+        // setInterval(function () {
+        //     Riode.Minipopup.open({
+        //         message: 'Someone Purchased',
+        //         productClass: 'product-cart',
+        //         name: 'Daisy Shoes Sonia by Sonia-Blue',
+        //         nameLink: 'product.html',
+        //         imageSrc: 'images/cart/product-1.jpg',
+        //         isPurchased: true
+        //     }, function ($box) {
+        //         Riode.ratingTooltip($box[0]);
+        //     });
+        // }, 60000);
     }
 
     /**

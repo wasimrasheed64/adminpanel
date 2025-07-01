@@ -5,7 +5,7 @@
 @section('description', 'Contact us')
 
 @section('content')
-    <div class="page-header align-items-start breadcrumb-resize-padding bg-light" style="color:white;padding-left:50px;">
+    <div class="page-header align-items-start breadcrumb-resize-padding " style="background-color: #D7E9E9;color:white;padding-left:50px;">
         <div class="container">
         <h2 class="page-title z-index-1">Contact Us</h2>
         <ul class="breadcrumb z-index-1">
@@ -39,7 +39,7 @@
                                 </div>
 
                             </div>
-                            <button class="btn btn-dark btn-rounded">Submit<i
+                            <button class="btn btn-primary btn-rounded">Submit<i
                                     class="d-icon-arrow-right"></i></button>
                         </form>
                     </div>
