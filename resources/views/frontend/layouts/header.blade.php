@@ -11,7 +11,7 @@
                     <i class="d-icon-phone"></i>
                     <span>Call us: </span>{{ $siteSetting->phone }}
                 </a>
-                <a href="ajax/login.html" class="login-link mr-0"><i class="d-icon-user"></i>Login</a>
+{{--                <a href="ajax/login.html" class="login-link mr-0"><i class="d-icon-user"></i>Login</a>--}}
             </div>
         </div>
     </div>

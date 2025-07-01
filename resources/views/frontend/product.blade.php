@@ -28,7 +28,8 @@
     </div>
 
     <div class="container">
-        <div class="product product-single row">
+        <div class="col-lg-12">
+            <div class="product product-single row">
             <div class="col-md-6">
                 <div class="product-gallery product-gallery-sticky mb-lg-9 mb-4">
                     <div class="product-single-carousel owl-carousel owl-theme owl-nav-inner row cols-1">
@@ -93,7 +94,7 @@
                     <hr class="product-divider">
                     <div class="row p-2">
                         <div class="col-lg-12 ">
-                            <h2 class="title title-sm mt-2 mb-3 btn-product">Get Free Quote</h2>
+                            <h2 class="title title-sm mt-5 mb-3 text-primary">Get Free Quote</h2>
                             <div class="form-group quoteForm">
                                 <div class="row">
                                     <div class="col-sm-8 col-md-8 col-xs-8"><label for="Size">Size For
@@ -224,6 +225,7 @@
 
             </div>
         </div>
+    </div>
     </div>
     @include('partials.frontend.productSlider',[
       'products' => $productSlider,
