@@ -2,6 +2,7 @@
     ============================================= -->
 <!-- Plugins JS File -->
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('vendor/parallax/parallax.min.js') }}"></script>
 <script src="{{ asset('vendor/elevatezoom/jquery.elevatezoom.min.js') }}"></script>
 <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
 
@@ -20,6 +21,6 @@
 
 
 <!-- Main JS File -->
-<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/main.min.js') }}"></script>
 
 

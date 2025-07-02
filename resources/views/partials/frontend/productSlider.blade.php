@@ -1,5 +1,5 @@
 <section class="product-wrapper container  pt-5 mb-8">
-    <h4 class="title title-sm  title-line title-underline"><span>{{ $title ?? " " }}</span></h4>
+    <h2 class="title justify-content-center ls-m mb-5"><span>{{ $title ?? " " }}</span></h2>
     <div class="owl-carousel owl-theme row cols-lg-4 cols-md-3 cols-2" data-owl-options="{
                                 'nav': false,
                                 'dots': false,
@@ -16,7 +16,9 @@
                                         'items': 3
                                     },
                                     '992': {
-                                        'items': 4
+                                        'items': 4,
+                                        'dots': false,
+                                    'nav': true
                                     }
                                 }
                             }">
@@ -41,7 +43,7 @@
 
                         <div class="product-action">
 
-                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product btn-cart" title="Select Options"><span>Request a Qoute</span></a>
+                            <a href="{{ route('dynamic.page',[$product->slug])}} " class="btn-product" title="Quick View"><span>Quick View</span></a>
 
                         </div>
                     </div>

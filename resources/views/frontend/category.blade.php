@@ -8,6 +8,7 @@
 @section('content')
     @include('partials.frontend.pageHeader',[
             'image'=> $category->banner_image,
+            'main_category' => $category->mainCategory->name,
             'title' => $category->name
         ])
 
@@ -42,11 +43,15 @@
                 </div>
             </aside>
             <div class="col-lg-9 main-content">
-                <h4 class="title title-sm title-line title-underline"><span>{{ $category->name }}</span></h4>
+{{--                <div class="title-wrapper">--}}
+{{--                    <div class="container">--}}
+{{--                        <h2 class="title"> {{ $category->name }}</h2>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <div class="row cols-2 cols-sm-3 cols-md-3 cols-lg-3 product-wrapper">
                     @if($category->products->isEmpty())
                     <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <strong>Sorry!</strong> No products found in this category.
+                        <span class="title-info"><strong>Sorry!</strong> No products found in this category.</span>
                     </div>
                     @endif
 
@@ -73,8 +78,7 @@
                                     <div class="product-action">
 
                                         <a href="{{ route('dynamic.page',[$product->slug])}} "
-                                           class="btn-product btn-cart"
-                                           title="Select Options"><span>Request a Quote</span></a>
+                                           class="btn-product " title="Quick View"><span>Quick View</span></a>
 
                                     </div>
                                 </div>
@@ -83,32 +87,86 @@
                     @endforeach
                 </div>
                 <hr>
-                <div class="tab  tab-nav-boxed
-                tab-outline2">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item text-dark btn-qoute border-radius">
-                            <a class="nav-link active text-white" href="#tab6-2">Get Quick Qoute</a>
-                        </li>
-                        <li class="nav-item text-dark btn-qoute border-radius">
-                            <a class="nav-link text-white " href="#tab6-3">Description</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content p-5">
-                        <div class="tab-pane active text-dark bg-white border-qoute-form" id="tab6-2">
-                            @include('partials.frontend.quickQoute')
-                        </div>
-                        <div class="tab-pane text-dark bg-white border-qoute-form" id="tab6-3">
-                            <div class="row p-5">
-                                <div class="col-sm-1">
+                <section class="banner-section mt-8 pt-md-6 pb-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 appear-animate"
+                                 data-animation-options="{'name': 'fadeInRightShorter', 'delay': '.3s'}">
+                                <div class="tab tab-nav-simple tab-nav-center tab-nav-boxed">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="nav-item text-dark">
+                                            <a class="nav-link  " href="#tab6-1">FAQS</a>
+                                        </li>
+                                        <li class="nav-item text-dark">
+                                            <a class="nav-link active" href="#tab6-2">Qoute Form</a>
+                                        </li>
+                                        <li class="nav-item text-dark">
+                                            <a class="nav-link " href="#tab6-3">Description</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content p-5">
+                                        <div class="tab-pane " id="tab6-1">
+                                            <div class="accordion accordion-border accordion-boxed accordion-plus">
 
-                                </div>
-                                <div class="col-lg-10" style="height:800px; overflow: scroll">
-                                    {!! $category->description !!}
+                                                @foreach(\App\Models\Faq::get() as $faq)
+                                                    <div class="card">
+                                                        <div class="card-header btn-accordian">
+                                                            <a href="#collapse2-{{$faq->id }}" class="ml-5 {{ $loop->iteration > 1 ? 'expand' : 'collapse' }} ">{{ $faq->question }}</a>
+                                                        </div>
+                                                        <div id="collapse2-{{$faq->id }}" class="{{ $loop->iteration > 1 ? 'collapsed' : 'expanded' }} p-5">
+                                                            <div class="card-body btn-accordian">
+                                                                <p class="ml-5 mb-0 pb-2">{{ $faq->answer }}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane active text-dark bg-white" id="tab6-2">
+                                            @include('partials.frontend.quickQoute')
+                                        </div>
+                                        <div class="tab-pane text-dark bg-white" id="tab6-3">
+                                            <div class="row p-5">
+                                                <div class="col-sm-1">
+
+                                                </div>
+                                                <div class="col-lg-10" style="height:500px; overflow: scroll">
+                                                    {!! $category->description !!}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
+{{--                <div class="tab tab-nav-simple tab-nav-center tab-nav-boxed">--}}
+{{--                    <ul class="nav nav-tabs" role="tablist">--}}
+{{--                        <li class="nav-item text-dark btn-qoute--}}
+{{--                         border-radius">--}}
+{{--                            <a class="nav-link active text-white" href="#tab6-2">Get Quick Qoute</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="nav-item text-dark btn-qoute border-radius">--}}
+{{--                            <a class="nav-link text-white " href="#tab6-3">Description</a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+{{--                    <div class="tab-content p-5">--}}
+{{--                        <div class="tab-pane active text-dark bg-white border-qoute-form" id="tab6-2">--}}
+{{--                            @include('partials.frontend.quickQoute')--}}
+{{--                        </div>--}}
+{{--                        <div class="tab-pane text-dark bg-white border-qoute-form" id="tab6-3">--}}
+{{--                            <div class="row p-5">--}}
+{{--                                <div class="col-sm-1">--}}
+
+{{--                                </div>--}}
+{{--                                <div class="col-lg-10" style="height:800px; overflow: scroll">--}}
+{{--                                    {!! $category->description !!}--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
 
         </div>

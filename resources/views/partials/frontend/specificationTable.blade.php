@@ -1,6 +1,6 @@
 <table class="table table-striped">
     <tbody>
-    <tr><td class="primarybordercolor text-color">Productname</td><td class="primarybordercolor">Cream Boxes</td></tr>
+    <tr><td class="primarybordercolor text-color">Productname</td><td class="primarybordercolor">{{$productName}}</td></tr>
     <tr><td class="primarybordercolor text-color">Dimensions</td><td class="primarybordercolor">Available in All Custom Sizes &amp; Shapes</td></tr>
     <tr><td class="primarybordercolor text-color">Printing</td><td class="primarybordercolor">All types of Custom Printings, CMYK Colors, RGB Colors, PMS (Pantone) Colors, Metallic Colors</td></tr>
     <tr><td class="primarybordercolor text-color">Stock</td><td class="primarybordercolor">12pt to 32pt, White Card, Kraft Brown Card, White Corrugated, Kraft Brown Corrugated, Bux Board</td></tr>

@@ -163,9 +163,9 @@
                                                                 </label>
                                                                 <select name="page" class="form-control form-control-solid">
                                                                     <option value="1">Home page</option>
-                                                                    <option
-                                                                        {{ $promotion->page == 2 ? 'selected' : ""   }}
-                                                                        value="2">Category Page</option>
+{{--                                                                    <option--}}
+{{--                                                                        {{ $promotion->page == 2 ? 'selected' : ""   }}--}}
+{{--                                                                        value="2">Category Page</option>--}}
                                                                     <option
                                                                         {{ $promotion->page == 3 ? 'selected' : ""   }}
                                                                         value="3">Product Page</option>
@@ -175,7 +175,7 @@
 
                                                             <div class="mb-10">
                                                                 <label for="categoryName" class="required form-label">
-                                                                    Page
+                                                                    Col
                                                                 </label>
                                                                 <select name="class" class="form-control form-control-solid">
                                                                     <option value="2">col-2</option>
@@ -210,6 +210,17 @@
 
 
 
+                                                                </select>
+                                                            </div>
+                                                            <div class="mb-10">
+                                                                <label for="categoryName" class="form-label">
+                                                                    home-page-height
+                                                                </label>
+                                                                <select name="home_page_height" class="form-control form-control-solid">
+                                                                    <option value="1">x1</option>
+                                                                    <option
+                                                                        {{ $promotion->height == 2 ? 'selected' : ""   }}
+                                                                        value="2">x2</option>
                                                                 </select>
                                                             </div>
 

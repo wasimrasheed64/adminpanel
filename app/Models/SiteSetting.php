@@ -21,13 +21,13 @@ class SiteSetting extends Model
         'favicon'
     ];
 
-    public function getLogoAttribute($value){
-        return asset('storage/'.$value);
-    }
-    public function getFooterlogoAttribute($value){
-        return asset('storage/'.$value);
-    }
-    public function getFaviconAttribute($value){
-        return asset('storage/'.$value);
-    }
+//    public function getLogoAttribute($value){
+//        return asset('storage/'.$value);
+//    }
+//    public function getFooterlogoAttribute($value){
+//        return asset('storage/'.$value);
+//    }
+//    public function getFaviconAttribute($value){
+//        return asset('storage/'.$value);
+//    }
 }

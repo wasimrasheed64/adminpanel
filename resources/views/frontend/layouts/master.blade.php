@@ -8,13 +8,14 @@
 
 <!-- BEGIN: Body-->
 
-<body>
+<body class="home">
 <div class="page-wrapper">
 @include('frontend.layouts.header')
 <main class="main">
     <div class="page-content">
 @yield('content')
     </div>
+    @include('frontend.layouts.mobileMenu')
 </main>
 
 
